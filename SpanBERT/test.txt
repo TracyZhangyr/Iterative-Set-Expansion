@@ -1,0 +1,154 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+
+
+____
+Parameters:
+Client key	=  AIzaSyD0FBYWKa1fBB2nYsg6RvP9DfvOLCpd_TI
+Engine key	=  de217206a85e0b817
+Relation	=  per:cities_of_residence
+Threshold	=  0.7
+Query		=  megan repinoe redding
+# of Tuples	=  2
+Loading necessary libraries; This should take a minute or so ...)
+URL: https://en.wikipedia.org/wiki/Megan_Rapinoe
+	Trimming webpage content from 113211 to 20000 characters
+	Webpage length (num characters): 20000
+	Extracted 99 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Megan Rapinoe From Wikipedia, the free encyclopedia Jump to navigation Jump to search American soccer player Megan Rapinoe Rapinoe with the US national team in 2019Personal informationFull name Megan Anna RapinoeDate of birth (1985-07-05)
+July 5, 1985 (age36)[1]Place of birth Redding, California, U.S.Height 5ft 6in (168cm)[1]Position(s) Midfielder, wingerClub informationCurrent team OL ReignNumber 15Youth career20022005 Elk Grove PrideCollege careerYears Team Apps (Gls)20052008 Portland Pilots Senior career*Years Team Apps (Gls)20092010 Chicago Red Stars 38 (3)2011 Philadelphia Independence 4 (1)2011 MagicJack 10 (3)2011 Sydney FC 2 (1)2012 Seattle Sounders Women 2 (0)20132014 Olympique Lyonnais 28 (8)2013 OL Reign 75 (34)National team20032005 United States U-20 21 (9)2006 United States 187 (62) Honours Olympic Games 2012 London Team 2020 Tokyo Team FIFA Women's World Cup 2019 France Team 2015 Canada Team 2011 Germany Team
+*
+Senior club appearances and goals counted for the domestic league only and correct as of July 8, 2019 National team caps and goals correct as of October 26, 2021 Megan Anna Rapinoe (/rpino/ (listen); born July 5, 1985) is an American professional soccer player who plays as a winger and captains OL Reign of the National Women's Soccer League (NWSL), as well as the United States national team.
+Winner of the Ballon d'Or Fminin and named The Best FIFA Women's Player in 2019,[2][3] Rapinoe won gold with the national team at the 2012 London Summer Olympics, 2015 FIFA Women's World Cup, and 2019 FIFA Women's World Cup and she played for the team at the 2011 FIFA Women's World Cup where the U.S. finished in second place.
+	Processed 5 / 99 sentences
+Rapinoe co-captained the national team alongside Carli Lloyd and Alex Morgan from 2018 to 2020, with the team earning the Bronze medal in the 2020 Summer Olympics in Tokyo.[4][5]
+She previously played for the Chicago Red Stars, Philadelphia Independence, and MagicJack in Women's Professional Soccer (WPS), as well as Olympique Lyon in France's Division 1 Fminine.
+Rapinoe is internationally known for her crafty style of play on the field and her activism off it.[6][7][8]
+Her precise cross to Abby Wambach in the 122nd minute of the 2011 FIFA Women's World Cup quarterfinal match against Brazil resulted in an equalizer and eventual win for the Americans after a penalty shootout.
+The last-minute goal was awarded ESPN's 2011 ESPY Award for Best Play of the Year.
+	Processed 10 / 99 sentences
+During the 2012 London Olympics, she scored three goals and tallied a team-high four assists to lead the United States to a gold medal.
+She is the first player, male or female, to score a goal directly from a corner at the Olympic Games, having done so twice.
+She won the Golden Boot and Golden Ball awards at the 2019 FIFA Women's World Cup in France.[9] Rapinoe is an advocate for numerous LGBT organizations, including the Gay, Lesbian & Straight Education Network (GLSEN) and Athlete Ally.
+In 2013, she was awarded the board of directors Award by the Los Angeles Gay and Lesbian Center.
+She is sponsored by Nike, Procter & Gamble, BodyArmor, Hulu, LUNA Bar, Samsung, and DJO Global, and has appeared in multiple promotional pieces for clothing company Wildfang, as well as for Nike.
+	Processed 15 / 99 sentences
+In 2019, she co-founded a gender-neutral lifestyle brand, re-inc, with fellow athletes Christen Press, Tobin Heath, and Meghan Klingenberg.[10]
+Rapinoe is included in Time magazine's 100 Most Influential People of 2020.[11] Contents 1 Early life 1.1 High school 1.2 Elk Grove United, 20022005 1.3 University of Portland Pilots, 20052008 2 Club career 2.1 Women's Professional Soccer (WPS), 20092011 2.2 Sydney FC and Seattle Sounders Women, 20112012 2.3 Olympique Lyonnais, 20132014 2.4 Seattle Reign FC, 2013present 3 International career 3.1 Youth national teams 3.2 Senior national team 3.2.1 National team debut and injury recovery, 20062009 3.2.2 2011 FIFA Women's World Cup 3.2.3 2012 London Olympics 3.2.4 20132014 3.2.5 2015 FIFA Women's World Cup 3.2.6 2019 FIFA Women's World Cup 3.2.7 2020 Tokyo Olympics 3.2.8 2022 SheBelievesCup 4 Personal life 4.1 Activism 4.2 Philanthropy 4.3 Endorsements 4.4 Politics 5 In popular culture 5.1 Print media 5.2 Television and film 5.3 Video games 5.4 Ticker tape parades, White House and Congressional honors, and a corn maze 5.5 Fashion 5.6 National anthem 6 Autobiography 7 Career statistics 7.1 Club 7.2 International goals 8 Honors 8.1 Awards and recognition 9 See also
+10 References 10.1 General citations 10.2 Match reports 11 Further reading 12 External links Early life Rapinoe grew up in Redding, California, with her parents, Jim and Denise, and five siblings, including her fraternal twin Rachael Rapinoe.
+
+		=== Extracted Relation ===
+		Input tokens: ['10', 'References', '10.1', 'General', 'citations', '10.2', 'Match', 'reports', '11', 'Further', 'reading', '12', 'External', 'links', 'Early', 'life', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',']
+		Output Confidence: 0.8675094 ; Subject: Match ; Object: Redding ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['10', 'References', '10.1', 'General', 'citations', '10.2', 'Match', 'reports', '11', 'Further', 'reading', '12', 'External', 'links', 'Early', 'life', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+		Output Confidence: 0.9745293 ; Subject: Jim ; Object: Redding ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['10', 'References', '10.1', 'General', 'citations', '10.2', 'Match', 'reports', '11', 'Further', 'reading', '12', 'External', 'links', 'Early', 'life', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+		Output Confidence: 0.9848477 ; Subject: Denise ; Object: Redding ;
+		Adding to set of extracted relations
+		==========
+Denise and Jim raised seven children together, not all their own.
+Denise has a son and daughter, Michael and Jenny, from a previous marriage; then came older brother Brian and then the twins five years later.
+	Processed 20 / 99 sentences
+Jim and her grandfather Jack both served in the Army.[12]
+She has Italian (from her paternal grandfather) and Irish ancestry.[13]
+She idolized her older brother Brian and started playing soccer at age three after watching him play the sport,[14] but he started using drugs when the girls were in second grade.[12] When she was ten and he was fifteen, he was put in juvenile detention, and was thereafter in and out of various prisons including Pelican Bay State Prison.
+Brian has since made a determined effort to avoid drugs after seeing his younger sister's success in international soccer and not being able to be present with his family.[15] For both Rachael and Megan, soccer was a means to get away from the drug abuse that is widespread in rural California.[14] High school Rapinoe spent most of her youth playing with teams coached by her father until high school.[16] Instead of playing soccer at Foothill High School, Rapinoe played for the Elk Grove Pride club team, located south of Sacramento.[17][18]
+She competed in track as a freshman and sophomore; competed in basketball as a freshman, sophomore, and senior; and was on the honor roll every semester of high school.[18] Rapinoe was named Parade and National Soccer Coaches Association of America (NSCAA)
+	Processed 25 / 99 sentences
+All-American as a junior and senior.
+She was named to McDonald's All-American Girls High School Soccer West Team in 2004.[19] Rapinoe played for the under-14 Northern California state Olympic Development Program (ODP) team in 1999, as well as the regional ODP team in 2002.[20] Elk Grove United, 20022005 From 2002 to 2005, Rapinoe played for Elk Grove Pride in the Women's Premier Soccer League (WPSL) along with her sister, Rachael, and future national teammate, Stephanie
+Cox.[21][22]
+She and her family commuted two-and-a-half hours from her hometown to play with the team.[23]
+During the US Youth Soccer National Championships, she scored an equalizer goal in the 18th minute to tie the game 11 against the Peachtree City Lazers.
+	Processed 30 / 99 sentences
+Elk Grove United finished second at the nationals after the Lazers scored a game-winning goal in the second half.[24] University of Portland Pilots, 20052008 Rapinoe and her sister both attended the University of Portland in Portland, Oregon.
+The Rapinoe twins almost committed to Santa Clara University before choosing to play for the Portland Pilots on full scholarships.[25] Rapinoe played in the 2004 FIFA U-19 Women's World Championship in 2004, where the United States finished third.
+The result was that she did not play college soccer in that year.[26]
+In 2005, as a freshman, Rapinoe helped the Pilots to an undefeated season and the NCAA Division I Women's Soccer Championship.
+During the College Cup quarterfinal against Notre Dame, she scored twice and served one assist, helping the Pilots win 31 and advance in the College Cup.[27]
+	Processed 35 / 99 sentences
+During the College Cup final against UCLA, she scored one goal and served an assist helping the Pilots win 40.[28]
+She was named NSCAA First Team All-American and was on the Soccer America First Team Freshman All-America.
+Rapinoe made the NCAA Women's Soccer Championship All Tournament Team and was the West Coast Conference Freshman of the Year.[29]
+She was also named to the All-West Coast Conference First Team and the All-West Coast Conference Freshman Team.
+Rapinoe played and started all 25 games as an attacking midfielder, scoring 15 goals and adding 13 assists for 43 points  ranking fifth for freshman point totals in the school's history.[20]
+	Processed 40 / 99 sentences
+That year, she also scored seven game-winning goals.[18]
+"I know this sounds weird, but getting hurt was one of the best things that ever happened to me.
+It really gave me a different perspective.
+Before, everything was going how it was supposed to be and I wasn't really appreciative of what I was doing and what it took to be there.
+The injury grounded me in a lot of different ways.
+	Processed 45 / 99 sentences
+The rehab process makes you stronger on all fronts, mentally and physically.
+I feel stronger and a better person for it.
+I would never wish it on anyone, but I don't wish I could take it back."
+Megan Rapinoe[30] As a sophomore in 2006, Rapinoe was among the nation's leading scorers with ten goals and two assists in eleven matches.
+During a match against Washington State University on October 5, she suffered her first season-ending anterior cruciate ligament injury (ACL) injury.[31] Despite her injury, she was one of four Portland players in the program's history, including Christine Sinclair, Tiffeny Milbrett, and Shannon MacMillan, to score 25 goals and 15 assists in two seasons.[18]
+	Processed 50 / 99 sentences
+In 2007, Rapinoe suffered her second season-ending ACL injury two games into the season.[20]
+She was granted a medical hardship waiver by the National Collegiate Athletic Association (NCAA) but did not use it.[18][32]
+After taking her time to recover from her second ACL injury, Rapinoe returned for the 2008 season and was on the starting lineup in all 22 games for the Pilots.
+She helped the team secure a 202 record scoring five goals and serving 13 assists.[33] Her 13 assists ranked first for the Pilots as well as in the West Coast Conference and she was named West Coast Conference Player of the Year.[34]
+She was also named a Soccer America First-Team All-American and NSCAA Second Team All-American.[18] Although she had one more season of college eligibility remaining due to her NCAA medical hardship waiver, she opted to enter the Women's Professional Soccer Draft instead.[18][35] Rapinoe's 88-point career, including 30 goals and 28 assists, ranks tenth in the school's history despite her playing only 60 games.[18] Club career Women's Professional Soccer (WPS), 20092011 Rapinoe was selected second overall in the 2009 WPS Draft by the Chicago Red Stars for the inaugural season of Women's Professional Soccer (WPS), the highest division of soccer in the United States at the time.[36] She was on the starting lineup in 17 of the 18 games in which she appeared for the Red Stars for a total of 1,375 minutes on the pitch.[37]
+	Processed 55 / 99 sentences
+Rapinoe scored two goals and assisted on three others.[18]
+In August 2009, she was named to the league's All-Star Team[38] and played in the 2009 WPS All-Star Game against Swedish Damallsvenskan champions Ume IK.[39]
+In 2010, she started in 19 of the 20 games in which she appeared for the Red Stars.
+She scored one goal.[18]
+Rapinoe warming up before a MagicJack match, 2011 In December 2010, Rapinoe signed with expansion team Philadelphia Independence after the Chicago Red Stars ceased operations.[40]
+	Processed 60 / 99 sentences
+She appeared in four games and scored one goal before being traded to MagicJack (formerly Washington Freedom) while she was in Germany for the 2011 FIFA Women's World Cup.[41][42]
+It was reported that the "cash considerations" involved in the transfer were $100,000.[43][44] The average salary for a female player in the league was $25,000.[45] Rapinoe scored two goals in her eight regular season appearances for MagicJack[37] helping the team finish third in the league standings and secure a spot in the playoffs.[46][47]
+During the team's semi-final match against the Boston Breakers on August 17, 2011, Rapinoe scored in the 61st minute solidifying the team's 31 win and advancement to the championship final.[48] MagicJack was later defeated 20 by the Philadelphia Independence in the final.[49][50] On October 25, 2011, the WPS voted to terminate the MagicJack franchise, leaving Rapinoe and many other players as free agents for the 2012 season.[51]
+The league suspended operations in early 2012.[52] Sydney FC and Seattle Sounders Women, 20112012 In October 2011, Rapinoe signed with Australian W-League team Sydney FC as a guest player for two games.[53] In her second game against Melbourne Victory, she scored with seven minutes remaining to seal three points for Sydney.[54]
+The win was the first for Sydney during the 201112 season.[55] Sydney FC went on to finish third in the regular season[56] and advanced to the playoffs where they were defeated by Brisbane Roar in penalty kicks.[57]
+	Processed 65 / 99 sentences
+During the summer of 2012, Rapinoe joined fellow national team members Hope Solo, Sydney Leroux, Alex Morgan and Stephanie Cox to play with the Seattle Sounders Women in between camps with the national team as they prepared for the 2012 Summer Olympics.[58] Of the signing, Sounders head coach Michelle French said, "Stemming from her leadership and success at the University of Portland, Megan has continued to evolve and grow into one of the most exciting, unpredictable, creative, and flashy players in the women's game.
+"[59]
+Rapinoe made two appearances during the regular season with the team, serving two assists.[60] With Rapinoe and her national teammates' presence on the team,[61][62] the Sounders sold out nine of their ten home matches at the 4,500 capacity Starfire Stadium.[63] Average attendance during the 2012 season for the Sounders Women was four times higher than the next closest team.[63] Olympique Lyonnais, 20132014 Rapinoe with Olympique Lyonnais in 2013 In January 2013, Rapinoe signed for six months with Olympique Lyonnais, the French side that had previously won six consecutive French league championships and two straight European titles, for a reported 11,000 (or approximately $14,000) a month.[64] Rapinoe played in six regular season matches for the team, scoring two goals primarily playing as a left winger in the squad's 433 formation.[37] Rapinoe made her UEFA Women's Champions League debut during the first leg of the 201213 quarterfinal against FC Malm on March 20.[65] She scored one goal during her 24 minutes on the pitch contributing to Lyon's 50 final victory.[66] She later scored a goal and served an assist during Lyon's 61 win over FCF Juvisy in the second leg of the semi-finals.[67] Rapinoe became the fifth American woman in history to play in a Champions League final when Lyon faced German side VfL Wolfsburg on May 23.[68][69] Lyon was defeated 10 in the final.[65] Rapinoe concluded her Champions League debut having made five appearances, scoring two goals and serving one assist.[65] After returning to Lyon for the 201314 season,[70] Rapinoe scored three goals in her eight appearances for the club.[37]
+During the 201314 Champions League, she made four appearances for Lyon and scored one goal during the team's 60 defeat of FC Twente.[71][72] Lyon was eliminated in the Round of 16.[73]
+In January 2014, it was announced that Rapinoe had ended her time with Lyon earlier than planned and would be returning to the Seattle Reign for the entire 2014 season.[74]
+	Processed 70 / 99 sentences
+She finished her time with Lyon having scored 8 goals in 28 matches in all competitions.[75] Rapinoe during a match against the Boston Breakers, April 13, 2014 Seattle Reign FC, 2013present This section needs to be updated.
+Please help update this article to reflect recent events or newly available information.
+(July 2019)
+In 2013, Rapinoe joined Seattle Reign FC to which she had been previously allocated in the National Women's Soccer League.[76]
+Before Rapinoe joined the squad, the team had been struggling to score goals and were 091 in ten games.[77]
+	Processed 75 / 99 sentences
+With the addition of Rapinoe, her national team and former Seattle Sounders Women teammate, Hope Solo, and some lineup changes to the front line, the Reign improved their goal-scoring ability and turned their league record around.[78]
+During a match against her former team in the WPS, the Chicago Red Stars, Rapinoe played a direct role in all of Seattle's four goals  leading the team to a 41 win over Chicago.
+After scoring two goals and serving one assist during the match, she was named NWSL Player of the Week for Week 16 for the 2013 NWSL season.[79]
+Despite only playing approximately half of the season (12 out of 22 regular season games), Rapinoe was the Reign's leading scorer with five goals.[80] After suffering a foot injury during the first home match of the 2014 season on April 14, Rapinoe sat out several games and made her second season appearance on July 3 against Western New York Flash.
+Her four goals and one assist during the regular season helped the Reign secure the league's regular season title (NWSL Shield) with a 1626 record and 54 points  13 points ahead of the second place team, FC Kansas City.[81]
+	Processed 80 / 99 sentences
+During the team's playoff semi-final match against Washington Spirit, Rapinoe scored a goal helping the Reign win 21 and advance to the championship final against FC Kansas City.[82]
+Despite Rapinoe's goal during the championship final, the Reign was ultimately defeated by Kansas City 21.[83]
+Rapinoe returned to the Reign for the 2015 season.
+During the team's first match against Western New York Flash, she scored her first professional hat trick and served an assist to Jess Fishlock to help the Reign defeat the Flash 51.[84][85]
+She was subsequently named the league's NWSL Player of the Week for week 1 of the season.[86][87]
+	Processed 85 / 99 sentences
+In September 2019, the Reign FC recognized Rapinoe, along with 11 others, as a Reign FC Legend, joining the 36 previous legends.[88][89] International career Youth national teams Rapinoe played for the United States under-16 national soccer team in 2002 and traveled with the team to France and Houston, Texas.[18]
+She also played at the United States Youth Soccer Association International Tournament in Houston in May 2003.[18]
+From 2003 to 2005, Rapinoe played for the United States under-19 team.
+She made 21 appearances and scored nine goals.[18]
+Her first camp with the under-19 team occurred in January 2003 in Chula Vista, California.[18]
+	Processed 90 / 99 sentences
+She traveled with the team during a European tour to the Netherlands and Germany in July 2003.[18]
+She scored her first goal with the team against Mexico on March 1, 2003.[18] Rapinoe played in three matches at the 2004 CONCACAF Under-19 qualifying tournament, scoring three goals.[18]
+During the 2004 FIFA U-19 Women's World Championship in Thailand she scored a team-high three goals, including one in the third place match victory against Brazil.[18][90][91]
+Senior national team National team debut and injury recovery, 20062009 Rapinoe trained with the United States women's national soccer team for the first time during the team's 2006 Residency Training Camp in Carson, California.
+She made her debut for the senior team on July 23, 2006, during a friendly match against Ireland.
+	Processed 95 / 99 sentences
+She scored her first two goals on October 1, 2006, during a friendly match against Taiwan.[18] Due to two separate ACL injuries, Rapinoe did not play for the senior team in 2007 or 2008 and subsequently missed the 2007 FIFA Women's World Cup and the 2008 Beijing Olympics.[92]
+Upon her return to the team in 2009, she led the team in points with five, including two goals and one assist.
+She was on the starting lineup in six of the seven games in which she played the same year.[18]
+During the 2009 Algarve Cup, Rapinoe scored the game-winning goal against Norway leading the team to a 10 victory during the team's third group stage match of the tournament.[93] After the U.S. finished at the top of their group, they were defeated during a penalty kick shootout by Sweden in the champ
+Extracted annotations for  1  out of total  99  sentences
+Relations extracted from this website: 3 (Overall: 3)

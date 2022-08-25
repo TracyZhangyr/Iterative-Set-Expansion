@@ -1,0 +1,1551 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+
+
+____
+Parameters:
+Client key	=  AIzaSyD0FBYWKa1fBB2nYsg6RvP9DfvOLCpd_TI
+Engine key	=  de217206a85e0b817
+Relation	=  per:employee_of
+Threshold	=  0.7
+Query		=  sundar pichai google
+# of Tuples	=  35
+Loading necessary libraries; This should take a minute or so ...)
+=========== Iteration: 0 - Query: sundar pichai google ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Sundar_Pichai
+	Fetching text from url ...
+	Trimming webpage content from 31722 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 359 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 359 sentences
+	Processed 10 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Pichai', 'was', 'selected', 'to', 'become', 'the', 'next', 'CEO', 'of', 'Google', 'on', 'August', '10', ',', '2015', ',', 'after', 'previously', 'being', 'appointed', 'Product', 'Chief', 'by', 'CEO', 'Larry', 'Page', '.']
+		Output Confidence: 0.9972172 ; Subject: Larry Page ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 15 / 359 sentences
+	Processed 20 / 359 sentences
+	Processed 25 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Career', 'Pichai', 'speaking', 'at', 'the', '2015', 'Mobile', 'World', 'Congress', 'in', 'Barcelona', ',', 'Spain', 'Pichai', 'worked', 'in', 'engineering', 'and', 'product', 'management', 'at', 'Applied', 'Materials', 'and', 'in', 'management', 'consulting', 'at', 'McKinsey', '&']
+		Output Confidence: 0.9912438 ; Subject: Pichai ; Object: Applied Materials ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Career', 'Pichai', 'speaking', 'at', 'the', '2015', 'Mobile', 'World', 'Congress', 'in', 'Barcelona', ',', 'Spain', 'Pichai', 'worked', 'in', 'engineering', 'and', 'product', 'management', 'at', 'Applied', 'Materials', 'and', 'in', 'management', 'consulting', 'at', 'McKinsey', '&', 'Company', '.']
+		Output Confidence: 0.9468343 ; Subject: Pichai ; Object: McKinsey & Company ;
+		Adding to set of extracted relations
+		==========
+	Processed 30 / 359 sentences
+	Processed 35 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Pichai', 'was', 'selected', 'to', 'become', 'the', 'next', 'CEO', 'of', 'Google', 'on', 'August', '10', ',', '2015', '[', '34', ']', 'after', 'previously', 'being', 'appointed', 'Product', 'Chief', 'by', 'CEO', ',', 'Larry', 'Page', '.']
+		Output Confidence: 0.9972420 ; Subject: Larry Page ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Pichai', 'had', 'been', 'suggested', 'as', 'a', 'contender', 'for', 'Microsoft', "'s", 'CEO', 'in', '2014', ',', 'a', 'position', 'that', 'was', 'eventually', 'given', 'to', 'Satya', 'Nadella', '.']
+		Output Confidence: 0.8969603 ; Subject: Satya Nadella ; Object: Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 40 / 359 sentences
+	Processed 45 / 359 sentences
+	Processed 50 / 359 sentences
+	Processed 55 / 359 sentences
+	Processed 60 / 359 sentences
+	Processed 65 / 359 sentences
+	Processed 70 / 359 sentences
+	Processed 75 / 359 sentences
+	Processed 80 / 359 sentences
+	Processed 85 / 359 sentences
+	Processed 90 / 359 sentences
+	Processed 95 / 359 sentences
+	Processed 100 / 359 sentences
+	Processed 105 / 359 sentences
+	Processed 110 / 359 sentences
+	Processed 115 / 359 sentences
+	Processed 120 / 359 sentences
+	Processed 125 / 359 sentences
+	Processed 130 / 359 sentences
+	Processed 135 / 359 sentences
+	Processed 140 / 359 sentences
+	Processed 145 / 359 sentences
+	Processed 150 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Siebel', 'Scholars', 'Archived', 'March', '21', ',', '2013', ',', 'at', 'the', 'Wayback', 'Machine', '.']
+		Output Confidence: 0.8447867 ; Subject: Siebel Scholars ; Object: the Wayback Machine ;
+		Adding to set of extracted relations
+		==========
+	Processed 155 / 359 sentences
+	Processed 160 / 359 sentences
+	Processed 165 / 359 sentences
+	Processed 170 / 359 sentences
+	Processed 175 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['"', 'Meet', 'Google', 'new', 'Android', 'chief', 'Sundar', 'Pichai', '"']
+		Output Confidence: 0.9960415 ; Subject: Sundar Pichai ; Object: Android ;
+		Adding to set of extracted relations
+		==========
+	Processed 180 / 359 sentences
+	Processed 185 / 359 sentences
+	Processed 190 / 359 sentences
+	Processed 195 / 359 sentences
+	Processed 200 / 359 sentences
+	Processed 205 / 359 sentences
+	Processed 210 / 359 sentences
+	Processed 215 / 359 sentences
+	Processed 220 / 359 sentences
+	Processed 225 / 359 sentences
+	Processed 230 / 359 sentences
+	Processed 235 / 359 sentences
+	Processed 240 / 359 sentences
+	Processed 245 / 359 sentences
+	Processed 250 / 359 sentences
+	Processed 255 / 359 sentences
+	Processed 260 / 359 sentences
+	Processed 265 / 359 sentences
+	Processed 270 / 359 sentences
+	Processed 275 / 359 sentences
+	Processed 280 / 359 sentences
+	Processed 285 / 359 sentences
+	Processed 290 / 359 sentences
+	Processed 295 / 359 sentences
+	Processed 300 / 359 sentences
+	Processed 305 / 359 sentences
+	Processed 310 / 359 sentences
+	Processed 315 / 359 sentences
+	Processed 320 / 359 sentences
+	Processed 325 / 359 sentences
+	Processed 330 / 359 sentences
+	Processed 335 / 359 sentences
+	Processed 340 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', "'s", 'rise', 'to', 'fame', 'in', '90', 'seconds', '"', ',', 'Tech', 'Gurus', ',', 'The', 'Daily', 'Telegraph', 'Business', 'positions', 'Precededby', 'Larry', 'Page', 'CEO', 'of', 'Google', '2015present']
+		Output Confidence: 0.9789660 ; Subject: Sundar Pichai's ; Object: The Daily Telegraph Business ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', "'s", 'rise', 'to', 'fame', 'in', '90', 'seconds', '"', ',', 'Tech', 'Gurus', ',', 'The', 'Daily', 'Telegraph', 'Business', 'positions', 'Precededby', 'Larry', 'Page', 'CEO', 'of', 'Google', '2015present']
+		Output Confidence: 0.9925899 ; Subject: Sundar Pichai's ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['The', 'Daily', 'Telegraph', 'Business', 'positions', 'Precededby', 'Larry', 'Page', 'CEO', 'of', 'Google', '2015present']
+		Output Confidence: 0.5107291 ; Subject: Precededby Larry Page CEO ; Object: The Daily Telegraph Business ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['The', 'Daily', 'Telegraph', 'Business', 'positions', 'Precededby', 'Larry', 'Page', 'CEO', 'of', 'Google', '2015present']
+		Output Confidence: 0.9959409 ; Subject: Precededby Larry Page CEO ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 345 / 359 sentences
+	Processed 350 / 359 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Former', 'Larry', 'Page', '(', 'CEO', ')', 'Sergey', 'Brin', '(', 'President', ')', 'David', 'Drummond', '(', 'CLO', ')']
+		Output Confidence: 0.7485877 ; Subject: Larry Page ; Object: CLO ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CLO', ')', 'Board', 'of', 'directors', 'Current', 'Sergey', 'Brin', 'John', 'Doerr', 'John', 'L.', 'Hennessy', 'Ann', 'Mather', 'Alan', 'Mulally', 'Larry', 'Page', 'Sundar', 'Pichai', 'Ram', 'Shriram', 'Roger', 'W.', 'Ferguson', 'Jr.']
+		Output Confidence: 0.8441581 ; Subject: Sergey Brin ; Object: CLO ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CLO', ')', 'Board', 'of', 'directors', 'Current', 'Sergey', 'Brin', 'John', 'Doerr', 'John', 'L.', 'Hennessy', 'Ann', 'Mather', 'Alan', 'Mulally', 'Larry', 'Page', 'Sundar', 'Pichai', 'Ram', 'Shriram', 'Roger', 'W.', 'Ferguson', 'Jr.']
+		Output Confidence: 0.9566048 ; Subject: John L. Hennessy Ann Mather ; Object: CLO ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CLO', ')', 'Board', 'of', 'directors', 'Current', 'Sergey', 'Brin', 'John', 'Doerr', 'John', 'L.', 'Hennessy', 'Ann', 'Mather', 'Alan', 'Mulally', 'Larry', 'Page', 'Sundar', 'Pichai', 'Ram', 'Shriram', 'Roger', 'W.', 'Ferguson', 'Jr.']
+		Output Confidence: 0.9523993 ; Subject: Alan Mulally ; Object: CLO ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CLO', ')', 'Board', 'of', 'directors', 'Current', 'Sergey', 'Brin', 'John', 'Doerr', 'John', 'L.', 'Hennessy', 'Ann', 'Mather', 'Alan', 'Mulally', 'Larry', 'Page', 'Sundar', 'Pichai', 'Ram', 'Shriram', 'Roger', 'W.', 'Ferguson', 'Jr.']
+		Output Confidence: 0.9790790 ; Subject: Larry Page Sundar Pichai Ram Shriram ; Object: CLO ;
+		Adding to set of extracted relations
+		==========
+	Processed 355 / 359 sentences
+Extracted annotations for  8  out of total  359  sentences
+Relations extracted from this website: 15 (Overall: 16)
+
+
+URL ( 2 / 10): https://mobile.twitter.com/sundarpichai?lang=en
+	Fetching text from url ...
+	Webpage length (num characters): 63
+	Annotating the webpage using spacy...
+	Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 3 / 10): https://blog.google/perspectives/sundar-pichai/
+	Fetching text from url ...
+	Webpage length (num characters): 3722
+	Annotating the webpage using spacy...
+	Extracted 34 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 34 sentences
+	Processed 10 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See', 'all', 'Outreach', '&']
+		Output Confidence: 0.8970690 ; Subject: Ruth Porat ; Object: SVP ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See', 'all', 'Outreach', '&', 'initiatives', 'Diversity', 'and', 'inclusion', 'Education', 'Google.org', 'Grow', 'with', 'Google', 'Sustainability']
+		Output Confidence: 0.6223345 ; Subject: Ruth Porat ; Object: Diversity ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See']
+		Output Confidence: 0.9568320 ; Subject: Ruth Porat ; Object: SVP ;
+		Adding to set of extracted relations
+		==========
+	Processed 15 / 34 sentences
+	Processed 20 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See', 'all', 'Press', 'corner', 'RSS', 'feed', 'Subscribe', 'Sundar', 'Pichai', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'Sundar', 'is', 'the', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'and', 'serves', 'on', 'Alphabets', 'Board', 'of', 'Directors', '.']
+		Output Confidence: 0.9883949 ; Subject: Kent Walker ; Object: SVP See all Press ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['SVP', 'See', 'all', 'Press', 'corner', 'RSS', 'feed', 'Subscribe', 'Sundar', 'Pichai', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'Sundar', 'is', 'the', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'and', 'serves', 'on', 'Alphabets', 'Board', 'of', 'Directors', '.']
+		Output Confidence: 0.5269796 ; Subject: Sundar Pichai ; Object: SVP See all Press ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['SVP', 'See', 'all', 'Press', 'corner', 'RSS', 'feed', 'Subscribe', 'Sundar', 'Pichai', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'Sundar', 'is', 'the', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'and', 'serves', 'on', 'Alphabets', 'Board', 'of', 'Directors', '.']
+		Output Confidence: 0.9553785 ; Subject: Sundar Pichai ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['SVP', 'See', 'all', 'Press', 'corner', 'RSS', 'feed', 'Subscribe', 'Sundar', 'Pichai', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'Sundar', 'is', 'the', 'CEO', 'of', 'Google', 'and', 'Alphabet', 'and', 'serves', 'on', 'Alphabets', 'Board', 'of', 'Directors', '.']
+		Output Confidence: 0.8656054 ; Subject: Sundar Pichai ; Object: Alphabets Board of Directors ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 34 sentences
+	Processed 30 / 34 sentences
+Extracted annotations for  3  out of total  34  sentences
+Relations extracted from this website: 6 (Overall: 10)
+
+
+URL ( 4 / 10): https://www.bbc.com/news/technology-50656803
+	Fetching text from url ...
+	Webpage length (num characters): 9001
+	Annotating the webpage using spacy...
+	Extracted 69 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['Published', '4', 'December', '2019', 'Share', 'close', 'Share', 'page', 'Copy', 'link', 'About', 'sharing', 'Image', 'source', ',', 'AFP', 'Image', 'caption', ',', 'Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',']
+		Output Confidence: 0.9891832 ; Subject: Sundar Pichai ; Object: Share ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Published', '4', 'December', '2019', 'Share', 'close', 'Share', 'page', 'Copy', 'link', 'About', 'sharing', 'Image', 'source', ',', 'AFP', 'Image', 'caption', ',', 'Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',']
+		Output Confidence: 0.9802936 ; Subject: Sundar Pichai ; Object: Share ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['AFP', 'Image', 'caption', ',', 'Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',']
+		Output Confidence: 0.8382497 ; Subject: Sundar Pichai ; Object: AFP Image ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',', 'the', 'chief', 'executive', 'of', 'Google', ',']
+		Output Confidence: 0.9956493 ; Subject: Sundar Pichai ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',', 'the', 'chief', 'executive', 'of', 'Google', ',', 'has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',']
+		Output Confidence: 0.9945314 ; Subject: Sundar Pichai ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',', 'the', 'chief', 'executive', 'of', 'Google', ',']
+		Output Confidence: 0.8289967 ; Subject: Sundar Pichai ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Sundar', 'Pichai', 'is', 'the', 'new', 'chief', 'executive', 'of', 'Alphabet', 'Sundar', 'Pichai', ',', 'the', 'chief', 'executive', 'of', 'Google', ',', 'has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',']
+		Output Confidence: 0.8204325 ; Subject: Sundar Pichai ; Object: Alphabet ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['the', 'chief', 'executive', 'of', 'Google', ',', 'has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',', 'after', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'announced', 'they', 'were', 'stepping', 'down', '.']
+		Output Confidence: 0.9964139 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['the', 'chief', 'executive', 'of', 'Google', ',', 'has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',', 'after', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'announced', 'they', 'were', 'stepping', 'down', '.']
+		Output Confidence: 0.9833404 ; Subject: Sergey Brin ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',', 'after', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'announced', 'they', 'were', 'stepping', 'down', '.']
+		Output Confidence: 0.9967409 ; Subject: Larry Page ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['has', 'been', 'put', 'in', 'charge', 'of', 'its', 'parent', 'company', 'Alphabet', ',', 'after', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'announced', 'they', 'were', 'stepping', 'down', '.']
+		Output Confidence: 0.9854480 ; Subject: Sergey Brin ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 69 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Getty', 'Images', 'Image', 'caption', ',', 'Sundar', 'Pichai', 'giving', 'a', 'presentation', 'in', '2011', 'He', 'studied', 'Metallurgical', 'Engineering', 'at', 'the', 'Indian', 'Institute', 'of', 'Technology', 'in', 'Kharagpur', '(']
+		Output Confidence: 0.7548357 ; Subject: Getty Images Image ; Object: the Indian Institute of Technology ;
+		Adding to set of extracted relations
+		==========
+	Processed 10 / 69 sentences
+	Processed 15 / 69 sentences
+	Processed 20 / 69 sentences
+	Processed 25 / 69 sentences
+	Processed 30 / 69 sentences
+	Processed 35 / 69 sentences
+	Processed 40 / 69 sentences
+	Processed 45 / 69 sentences
+	Processed 50 / 69 sentences
+	Processed 55 / 69 sentences
+	Processed 60 / 69 sentences
+	Processed 65 / 69 sentences
+Extracted annotations for  2  out of total  69  sentences
+Relations extracted from this website: 8 (Overall: 12)
+
+
+URL ( 5 / 10): https://www.britannica.com/biography/Sundar-Pichai
+	Fetching text from url ...
+	Webpage length (num characters): 6288
+	Annotating the webpage using spacy...
+	Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 58 sentences
+	Processed 10 / 58 sentences
+	Processed 15 / 58 sentences
+	Processed 20 / 58 sentences
+	Processed 25 / 58 sentences
+	Processed 30 / 58 sentences
+	Processed 35 / 58 sentences
+	Processed 40 / 58 sentences
+	Processed 45 / 58 sentences
+	Processed 50 / 58 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Therefore', ',', 'when', 'Google', 'cofounders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'announced', 'the', 'creation', 'of', 'Alphabet', 'Inc.', ',']
+		Output Confidence: 0.9840459 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 55 / 58 sentences
+Extracted annotations for  1  out of total  58  sentences
+Relations extracted from this website: 0 (Overall: 1)
+
+
+URL ( 6 / 10): https://www.cnbc.com/2021/12/21/google-ceo-addresses-employee-concerns-over-loss-of-candor-and-honesty.html
+	Fetching text from url ...
+	Webpage length (num characters): 7364
+	Annotating the webpage using spacy...
+	Extracted 60 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 60 sentences
+	Processed 10 / 60 sentences
+	Processed 15 / 60 sentences
+	Processed 20 / 60 sentences
+	Processed 25 / 60 sentences
+	Processed 30 / 60 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'started', 'TGIFs', 'in', '1999', 'at', 'Google', "'s", 'campus', 'in', 'Mountain', 'View', ',']
+		Output Confidence: 0.9757531 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 35 / 60 sentences
+	Processed 40 / 60 sentences
+	Processed 45 / 60 sentences
+	Processed 50 / 60 sentences
+	Processed 55 / 60 sentences
+Extracted annotations for  1  out of total  60  sentences
+Relations extracted from this website: 0 (Overall: 1)
+
+
+URL ( 7 / 10): https://www.wsj.com/articles/google-ceo-sundar-pichais-vision-for-return-to-work-11646055640
+	Fetching text from url ...
+	Webpage length (num characters): 8429
+	Annotating the webpage using spacy...
+	Extracted 43 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 43 sentences
+	Processed 10 / 43 sentences
+	Processed 15 / 43 sentences
+	Processed 20 / 43 sentences
+	Processed 25 / 43 sentences
+	Processed 30 / 43 sentences
+	Processed 35 / 43 sentences
+	Processed 40 / 43 sentences
+Extracted annotations for  0  out of total  43  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 8 / 10): https://fortune.com/2021/11/17/alphabet-google-ceo-sundar-pichai-next-trillion-internet-search-cloud-ai/
+	Fetching text from url ...
+	Webpage length (num characters): 726
+	Annotating the webpage using spacy...
+	Extracted 8 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 8 sentences
+Extracted annotations for  0  out of total  8  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 9 / 10): https://www.blog.google/technology/ai/ai-principles/
+	Fetching text from url ...
+	Webpage length (num characters): 11791
+	Annotating the webpage using spacy...
+	Extracted 104 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 104 sentences
+	Processed 10 / 104 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See', 'all', 'Outreach', '&']
+		Output Confidence: 0.8970690 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See', 'all', 'Outreach', '&', 'initiatives', 'Diversity', 'and', 'inclusion', 'Education', 'Google.org', 'Grow', 'with', 'Google', 'Sustainability']
+		Output Confidence: 0.6223345 ; Subject: Ruth Porat ; Object: Diversity ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+	Processed 15 / 104 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',', 'SVP', 'See']
+		Output Confidence: 0.9568320 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 20 / 104 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['CEO', 'Ruth', 'Porat', ',', 'SVP', 'and', 'CFO', 'Kent', 'Walker', ',']
+		Output Confidence: 0.8444576 ; Subject: Ruth Porat ; Object: SVP ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 25 / 104 sentences
+	Processed 30 / 104 sentences
+	Processed 35 / 104 sentences
+	Processed 40 / 104 sentences
+	Processed 45 / 104 sentences
+	Processed 50 / 104 sentences
+	Processed 55 / 104 sentences
+	Processed 60 / 104 sentences
+	Processed 65 / 104 sentences
+	Processed 70 / 104 sentences
+	Processed 75 / 104 sentences
+	Processed 80 / 104 sentences
+	Processed 85 / 104 sentences
+	Processed 90 / 104 sentences
+	Processed 95 / 104 sentences
+	Processed 100 / 104 sentences
+Extracted annotations for  3  out of total  104  sentences
+Relations extracted from this website: 0 (Overall: 6)
+
+
+URL ( 10 / 10): https://www.inc.com/jeff-steen/googles-sundar-pichai-just-announced-a-100-million-educational-fund-it-might-mean-beginning-of-end-for-college.html
+	Fetching text from url ...
+	Webpage length (num characters): 4241
+	Annotating the webpage using spacy...
+	Extracted 40 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 40 sentences
+	Processed 10 / 40 sentences
+	Processed 15 / 40 sentences
+	Processed 20 / 40 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['As', 'IBM', 'VP', 'of', 'talent', 'Joanna', 'Daley', 'told', 'CNBC', 'a', 'few', 'years', 'back', ',']
+		Output Confidence: 0.9928682 ; Subject: Joanna Daley ; Object: IBM ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['As', 'IBM', 'VP', 'of', 'talent', 'Joanna', 'Daley', 'told', 'CNBC', 'a', 'few', 'years', 'back', ',']
+		Output Confidence: 0.9798552 ; Subject: Joanna Daley ; Object: CNBC ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 40 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Others', ',', 'like', 'former', 'CEO', 'Daniel', 'Schwartz', 'of', 'Restaurant', 'Brands', 'International', '(']
+		Output Confidence: 0.9879190 ; Subject: Daniel Schwartz ; Object: Restaurant Brands International ;
+		Adding to set of extracted relations
+		==========
+	Processed 30 / 40 sentences
+	Processed 35 / 40 sentences
+Extracted annotations for  2  out of total  40  sentences
+Relations extracted from this website: 3 (Overall: 3)
+================== ALL RELATIONS for per:employee_of ( 28 ) =================
+Confidence: 0.9972420 		| Subject: Larry Page 		| Object: Google
+Confidence: 0.9967409 		| Subject: Larry Page 		| Object: Alphabet
+Confidence: 0.9960415 		| Subject: Sundar Pichai 		| Object: Android
+Confidence: 0.9959409 		| Subject: Precededby Larry Page CEO 		| Object: Google
+Confidence: 0.9956493 		| Subject: Sundar Pichai 		| Object: Google
+Confidence: 0.9945314 		| Subject: Sundar Pichai 		| Object: Alphabet
+Confidence: 0.9928682 		| Subject: Joanna Daley 		| Object: IBM
+Confidence: 0.9925899 		| Subject: Sundar Pichai's 		| Object: Google
+Confidence: 0.9912438 		| Subject: Pichai 		| Object: Applied Materials
+Confidence: 0.9891832 		| Subject: Sundar Pichai 		| Object: Share
+Confidence: 0.9883949 		| Subject: Kent Walker 		| Object: SVP See all Press
+Confidence: 0.9879190 		| Subject: Daniel Schwartz 		| Object: Restaurant Brands International
+Confidence: 0.9854480 		| Subject: Sergey Brin 		| Object: Alphabet
+Confidence: 0.9833404 		| Subject: Sergey Brin 		| Object: Google
+Confidence: 0.9798552 		| Subject: Joanna Daley 		| Object: CNBC
+Confidence: 0.9790790 		| Subject: Larry Page Sundar Pichai Ram Shriram 		| Object: CLO
+Confidence: 0.9789660 		| Subject: Sundar Pichai's 		| Object: The Daily Telegraph Business
+Confidence: 0.9568320 		| Subject: Ruth Porat 		| Object: SVP
+Confidence: 0.9566048 		| Subject: John L. Hennessy Ann Mather 		| Object: CLO
+Confidence: 0.9523993 		| Subject: Alan Mulally 		| Object: CLO
+Confidence: 0.9468343 		| Subject: Pichai 		| Object: McKinsey & Company
+Confidence: 0.8969603 		| Subject: Satya Nadella 		| Object: Microsoft
+Confidence: 0.8656054 		| Subject: Sundar Pichai 		| Object: Alphabets Board of Directors
+Confidence: 0.8447867 		| Subject: Siebel Scholars 		| Object: the Wayback Machine
+Confidence: 0.8441581 		| Subject: Sergey Brin 		| Object: CLO
+Confidence: 0.8382497 		| Subject: Sundar Pichai 		| Object: AFP Image
+Confidence: 0.7548357 		| Subject: Getty Images Image 		| Object: the Indian Institute of Technology
+Confidence: 0.7485877 		| Subject: Larry Page 		| Object: CLO
+=========== Iteration: 1 - Query: Larry Page Google ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Larry_Page
+	Fetching text from url ...
+	Trimming webpage content from 73995 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 138 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['founders', 'of', 'Google', ',', 'along', 'with', 'Sergey', 'Brin', '.']
+		Output Confidence: 0.7702907 ; Subject: Sergey Brin ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'was', 'the', 'chief', 'executive', 'officer', 'of', 'Google', 'from', '1997', 'until', 'August', '2001', '(', 'stepping', 'down', 'in', 'favor', 'of', 'Eric', 'Schmidt', ')']
+		Output Confidence: 0.9918556 ; Subject: Eric Schmidt ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['stepping', 'down', 'in', 'favor', 'of', 'Eric', 'Schmidt', ')', 'then', 'from', 'April', '2011', 'until', 'July', '2015', 'when', 'he', 'moved', 'to', 'become', 'CEO', 'of', 'Alphabet', 'Inc.', '(']
+		Output Confidence: 0.9755884 ; Subject: Eric Schmidt ; Object: Alphabet Inc. ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['stepping', 'down', 'in', 'favor', 'of', 'Eric', 'Schmidt', ')', 'then', 'from', 'April', '2011', 'until', 'July', '2015', 'when', 'he', 'moved', 'to', 'become', 'CEO', 'of', 'Alphabet', 'Inc.', '(', 'created', 'to', 'deliver', '"', 'major', 'advancements', '"', 'as', 'Google', "'s", 'parent', 'company', ')']
+		Output Confidence: 0.9709660 ; Subject: Eric Schmidt ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['According', 'to', 'Bloomberg', 'Billionaires', 'Index', ',', 'as', 'of', 'March', '2022', ',', 'Page', 'has', 'a', 'net', 'worth', 'of', 'approximately', '$', '125', 'billion', ',']
+		Output Confidence: 0.9619832 ; Subject: Bloomberg ; Object: Page ;
+		Adding to set of extracted relations
+		==========
+	Processed 10 / 138 sentences
+	Processed 15 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', "'s", 'father', 'was', 'a', 'computer', 'science', 'professor', 'at', 'Michigan', 'State', 'University', 'and', 'his', 'mother', 'Gloria', 'was', 'an', 'instructor', 'in', 'computer', 'programming', 'at', 'Lyman', 'Briggs', 'College', 'at', 'the', 'same', 'institution', '.']
+		Output Confidence: 0.9781504 ; Subject: Gloria ; Object: Michigan State University ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', "'s", 'father', 'was', 'a', 'computer', 'science', 'professor', 'at', 'Michigan', 'State', 'University', 'and', 'his', 'mother', 'Gloria', 'was', 'an', 'instructor', 'in', 'computer', 'programming', 'at', 'Lyman', 'Briggs', 'College', 'at', 'the', 'same', 'institution', '.']
+		Output Confidence: 0.9309485 ; Subject: Gloria ; Object: Lyman Briggs College ;
+		Adding to set of extracted relations
+		==========
+	Processed 20 / 138 sentences
+	Processed 25 / 138 sentences
+	Processed 30 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Education', 'Page', 'attended', 'the', 'Okemos', 'Montessori', 'School', '(', 'now', 'called', 'Montessori', 'Radmoor', ')']
+		Output Confidence: 0.5757265 ; Subject: Montessori Radmoor ; Object: the Okemos Montessori School ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+	Processed 35 / 138 sentences
+	Processed 40 / 138 sentences
+	Processed 45 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['John', 'Battelle', ',', 'co', '-', 'founder', 'of', 'Wired', 'magazine', ',']
+		Output Confidence: 0.9944071 ; Subject: John Battelle ; Object: Wired ;
+		Adding to set of extracted relations
+		==========
+	Processed 50 / 138 sentences
+	Processed 55 / 138 sentences
+	Processed 60 / 138 sentences
+	Processed 65 / 138 sentences
+	Processed 70 / 138 sentences
+	Processed 75 / 138 sentences
+	Processed 80 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Sun', 'Microsystems', 'co', '-', 'founder', 'Andy', 'Bechtolsheim', 'wrote', 'a', '$', '100,000', 'cheque', 'to', '"']
+		Output Confidence: 0.9962420 ; Subject: Andy Bechtolsheim ; Object: Sun Microsystems ;
+		Adding to set of extracted relations
+		==========
+	Processed 85 / 138 sentences
+	Processed 90 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['while', 'Brin', ',', 'named', 'Google', "'s", 'co', '-', 'founder', ',', 'served', 'as', 'Google', "'s", 'president', '.']
+		Output Confidence: 0.9373208 ; Subject: Brin ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 95 / 138 sentences
+	Processed 100 / 138 sentences
+	Processed 105 / 138 sentences
+	Processed 110 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Eric', 'Schmidt', ',', 'who', 'had', 'been', 'hired', 'as', 'Chairman', 'of', 'Google', 'in', 'March', '2001', ',']
+		Output Confidence: 0.9953920 ; Subject: Eric Schmidt ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Eric', 'Schmidt', ',', 'who', 'had', 'been', 'hired', 'as', 'Chairman', 'of', 'Google', 'in', 'March', '2001', ',', 'left', 'his', 'full', '-', 'time', 'position', 'as', 'the', 'CEO', 'of', 'Novell', 'to', 'take', 'the', 'same', 'role', 'at', 'Google', 'in', 'August', 'of', 'the', 'same', 'year', ',']
+		Output Confidence: 0.9907882 ; Subject: Eric Schmidt ; Object: Novell ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Eric', 'Schmidt', ',', 'who', 'had', 'been', 'hired', 'as', 'Chairman', 'of', 'Google', 'in', 'March', '2001', ',', 'left', 'his', 'full', '-', 'time', 'position', 'as', 'the', 'CEO', 'of', 'Novell', 'to', 'take', 'the', 'same', 'role', 'at', 'Google', 'in', 'August', 'of', 'the', 'same', 'year', ',']
+		Output Confidence: 0.9894002 ; Subject: Eric Schmidt ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['time', 'position', 'as', 'the', 'CEO', 'of', 'Novell', 'to', 'take', 'the', 'same', 'role', 'at', 'Google', 'in', 'August', 'of', 'the', 'same', 'year', ',', 'and', 'Page', 'moved', 'aside', 'to', 'assume', 'the', 'President', 'of', 'Products', 'role', '.']
+		Output Confidence: 0.9931855 ; Subject: Page ; Object: Novell ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['time', 'position', 'as', 'the', 'CEO', 'of', 'Novell', 'to', 'take', 'the', 'same', 'role', 'at', 'Google', 'in', 'August', 'of', 'the', 'same', 'year', ',', 'and', 'Page', 'moved', 'aside', 'to', 'assume', 'the', 'President', 'of', 'Products', 'role', '.']
+		Output Confidence: 0.8790639 ; Subject: Page ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Under', 'Schmidt', "'s", 'leadership', ',', 'Google', 'underwent', 'a', 'period', 'of', 'major', 'growth', 'and', 'expansion', ',']
+		Output Confidence: 0.9694394 ; Subject: Schmidt ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 115 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'became', 'passionate', 'about', 'Android', 'and', 'spent', 'large', 'amounts', 'of', 'time', 'with', 'Android', 'CEO', 'and', 'cofounder', 'Andy', 'Rubin', '.']
+		Output Confidence: 0.6813641 ; Subject: Andy Rubin ; Object: Android ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'became', 'passionate', 'about', 'Android', 'and', 'spent', 'large', 'amounts', 'of', 'time', 'with', 'Android', 'CEO', 'and', 'cofounder', 'Andy', 'Rubin', '.']
+		Output Confidence: 0.8361849 ; Subject: Andy Rubin ; Object: Android ;
+		Adding to set of extracted relations
+		==========
+	Processed 120 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'officially', 'became', 'the', 'chief', 'executive', 'of', 'Google', 'on', 'April', '4', ',', '2011', ',', 'while', 'Schmidt', 'stepped', 'down', 'to', 'become', 'executive', 'chairman', '.']
+		Output Confidence: 0.9965470 ; Subject: Schmidt ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 125 / 138 sentences
+	Processed 130 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Jon', 'Wiley', ',', 'lead', 'designer', 'of', 'Google', 'Search', 'at', 'the', 'time', ',']
+		Output Confidence: 0.9826711 ; Subject: Jon Wiley ; Object: Google Search ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['lead', 'designer', 'of', 'Google', 'Search', 'at', 'the', 'time', ',', 'codenamed', 'Page', "'s", 'redesign', 'overhaul', ',', 'which', 'officially', 'commenced', 'on', 'April', '4', ',', '2011', ',', '"', 'Project', 'Kennedy', '"']
+		Output Confidence: 0.7730327 ; Subject: Project Kennedy ; Object: Google Search ;
+		Adding to set of extracted relations
+		==========
+	Processed 135 / 138 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Matias', 'Duarte', ',', 'senior', 'director', 'of', 'the', 'Android', 'user', 'expe']
+		Output Confidence: 0.9820303 ; Subject: Matias Duarte ; Object: Android ;
+		Adding to set of extracted relations
+		==========
+Extracted annotations for  14  out of total  138  sentences
+Relations extracted from this website: 18 (Overall: 23)
+
+
+URL ( 2 / 10): https://www.britannica.com/biography/Larry-Page
+	Fetching text from url ...
+	Webpage length (num characters): 6477
+	Annotating the webpage using spacy...
+	Extracted 61 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 61 sentences
+	Processed 10 / 61 sentences
+	Processed 15 / 61 sentences
+	Processed 20 / 61 sentences
+	Processed 25 / 61 sentences
+	Processed 30 / 61 sentences
+	Processed 35 / 61 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'The', 'Editors', 'of', 'Encyclopaedia', 'Britannica', ' ', 'Last', 'Updated', ':', 'Mar', '22', ',', '2022', ' ', 'Edit', 'History', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'See', 'all', 'media', 'Born', ':']
+		Output Confidence: 0.9857657 ; Subject: Larry Page ; Object: Encyclopaedia Britannica ;
+		Adding to set of extracted relations
+		==========
+	Processed 40 / 61 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', ',', 'whose', 'father', 'was', 'a', 'professor', 'of', 'computer', 'science', 'at', 'Michigan', 'State', 'University', ',']
+		Output Confidence: 0.9949184 ; Subject: Page ; Object: Michigan State University ;
+		Adding to set of extracted relations
+		==========
+	Processed 45 / 61 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'September', '1998', 'the', 'two', 'had', 'founded', 'Google', 'Inc.', ',', 'with', 'Page', 'as', 'chief', 'executive', 'officer', '(']
+		Output Confidence: 0.9850768 ; Subject: Page ; Object: Google Inc. ;
+		Adding to set of extracted relations
+		==========
+	Processed 50 / 61 sentences
+	Processed 55 / 61 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['In', '2011', 'Page', 'resumed', 'his', 'duties', 'as', 'Googles', 'CEO', ',', 'Schmidt', 'having', 'moved', 'to', 'the', 'position', 'of', 'executive', 'chairman', '.']
+		Output Confidence: 0.9958316 ; Subject: Schmidt ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Google', 'was', 'restructured', 'in', 'August', '2015', 'as', 'a', 'subsidiary', 'of', 'the', 'newly', 'created', 'holding', 'company', 'Alphabet', 'Inc.', ',', 'and', 'Page', 'became', 'CEO', 'of', 'Alphabet', '.']
+		Output Confidence: 0.9843462 ; Subject: Page ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Google', 'was', 'restructured', 'in', 'August', '2015', 'as', 'a', 'subsidiary', 'of', 'the', 'newly', 'created', 'holding', 'company', 'Alphabet', 'Inc.', ',', 'and', 'Page', 'became', 'CEO', 'of', 'Alphabet', '.']
+		Output Confidence: 0.9896767 ; Subject: Page ; Object: Alphabet Inc. ;
+		Adding to set of extracted relations
+		==========
+	Processed 60 / 61 sentences
+Extracted annotations for  5  out of total  61  sentences
+Relations extracted from this website: 6 (Overall: 6)
+
+
+URL ( 3 / 10): https://www.theverge.com/2019/12/4/20994361/google-alphabet-larry-page-sergey-brin-sundar-pichai-co-founders-ceo-timeline
+	Fetching text from url ...
+	Trimming webpage content from 28899 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 128 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['Corbis', 'via', 'Getty', 'Images', 'Filed', 'under', ':', 'Google', 'The', 'rise', ',', 'disappearance', ',', 'and', 'retirement', 'of', 'Google', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin']
+		Output Confidence: 0.9881112 ; Subject: Larry Page ; Object: Corbis ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Corbis', 'via', 'Getty', 'Images', 'Filed', 'under', ':', 'Google', 'The', 'rise', ',', 'disappearance', ',', 'and', 'retirement', 'of', 'Google', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin']
+		Output Confidence: 0.8174487 ; Subject: Larry Page ; Object: Getty Images Filed ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['and', 'retirement', 'of', 'Google', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin']
+		Output Confidence: 0.9767269 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['and', 'retirement', 'of', 'Google', 'co', '-', 'founders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'Linkedin']
+		Output Confidence: 0.9915463 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 5 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['since', 'restructuring', 'the', 'company', 'to', 'create', 'Google', 'parent', 'Alphabet', 'and', 'leaving', 'Sundar', 'Pichai', 'in', 'charge', 'of', 'a', 'newly', 'streamlined', 'Google', '.']
+		Output Confidence: 0.9548630 ; Subject: Sundar Pichai ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 10 / 128 sentences
+	Processed 15 / 128 sentences
+	Processed 20 / 128 sentences
+	Processed 25 / 128 sentences
+	Processed 30 / 128 sentences
+	Processed 35 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['as', 'recalled', 'by', 'Khosla', 'Ventures', 'founder', 'Vinod', 'Khosla', '.']
+		Output Confidence: 0.9955012 ; Subject: Vinod Khosla ; Object: Khosla Ventures ;
+		Adding to set of extracted relations
+		==========
+	Processed 40 / 128 sentences
+	Processed 45 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'gives', 'up', 'CEO', 'role', 'to', 'Eric', 'Schmidt', 'After', 'officially', 'incorporating', 'and', 'launching', 'Google', 'to', 'the', 'public', 'in', '1998', ',']
+		Output Confidence: 0.5741463 ; Subject: Eric Schmidt ; Object: Google ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'gives', 'up', 'CEO', 'role', 'to', 'Eric', 'Schmidt', 'After', 'officially', 'incorporating', 'and', 'launching', 'Google', 'to', 'the', 'public', 'in', '1998', ',', 'Page', 'and', 'Brin', 'were', 'overseeing', 'one', 'of', 'the', 'fastest', '-']
+		Output Confidence: 0.9722874 ; Subject: Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 50 / 128 sentences
+	Processed 55 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['unconscionable', 'amount', 'of', 'money', 'for', 'a', 'startup', 'with', 'what', 'Yahoo', 'CEO', 'Terry', 'Semel', 'considered', 'lackluster', 'revenue', '.']
+		Output Confidence: 0.9877984 ; Subject: Terry Semel ; Object: Yahoo ;
+		Adding to set of extracted relations
+		==========
+	Processed 60 / 128 sentences
+	Processed 65 / 128 sentences
+	Processed 70 / 128 sentences
+	Processed 75 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Susan', 'Wojcicki', 'convinces', 'Page', 'and', 'Brin', 'to', 'approve', 'YouTube', 'acquisition', 'Susan', 'Wojcicki', 'was', 'the', '16th', 'employee', 'at', 'Google', 'and', 'the', 'person', 'whose', 'garage', 'the', 'company', 'was', 'literally', 'started', 'out', 'of', '.']
+		Output Confidence: 0.9877127 ; Subject: Susan Wojcicki ; Object: YouTube ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Susan', 'Wojcicki', 'convinces', 'Page', 'and', 'Brin', 'to', 'approve', 'YouTube', 'acquisition', 'Susan', 'Wojcicki', 'was', 'the', '16th', 'employee', 'at', 'Google', 'and', 'the', 'person', 'whose', 'garage', 'the', 'company', 'was', 'literally', 'started', 'out', 'of', '.']
+		Output Confidence: 0.9912608 ; Subject: Susan Wojcicki ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Susan', 'Wojcicki', 'convinces', 'Page', 'and', 'Brin', 'to', 'approve', 'YouTube', 'acquisition', 'Susan', 'Wojcicki', 'was', 'the', '16th', 'employee', 'at', 'Google', 'and', 'the', 'person', 'whose', 'garage', 'the', 'company', 'was', 'literally', 'started', 'out', 'of', '.']
+		Output Confidence: 0.6129649 ; Subject: Brin ; Object: Google ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Susan', 'Wojcicki', 'convinces', 'Page', 'and', 'Brin', 'to', 'approve', 'YouTube', 'acquisition', 'Susan', 'Wojcicki', 'was', 'the', '16th', 'employee', 'at', 'Google', 'and', 'the', 'person', 'whose', 'garage', 'the', 'company', 'was', 'literally', 'started', 'out', 'of', '.']
+		Output Confidence: 0.8172628 ; Subject: Susan Wojcicki ; Object: YouTube ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Susan', 'Wojcicki', 'convinces', 'Page', 'and', 'Brin', 'to', 'approve', 'YouTube', 'acquisition', 'Susan', 'Wojcicki', 'was', 'the', '16th', 'employee', 'at', 'Google', 'and', 'the', 'person', 'whose', 'garage', 'the', 'company', 'was', 'literally', 'started', 'out', 'of', '.']
+		Output Confidence: 0.9302651 ; Subject: Susan Wojcicki ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 80 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Wojcicki', ',', 'who', 'oversaw', 'Googles', 'own', 'fledging', 'video', 'platform', ',']
+		Output Confidence: 0.9865999 ; Subject: Wojcicki ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+	Processed 85 / 128 sentences
+	Processed 90 / 128 sentences
+	Processed 95 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Page', 'takes', 'over', 'as', 'CEO', 'again', 'and', 'Schmidt', 'shifts', 'to', 'executive', 'chairman', 'After', '10', 'years', 'at', 'the', 'helm', ',', 'Schmidt', 'ended', 'his', 'tenure', 'at', 'Google', 'with', 'the', 'cheeky', 'tweet', ',']
+		Output Confidence: 0.9952164 ; Subject: Schmidt ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['In', 'what', 'was', 'then', 'the', 'biggest', 'executive', 'shakeup', 'in', 'Googles', 'history', ',', 'Page', 'took', 'the', 'reins', 'back', 'as', 'CEO', 'and', 'Schmidt', 'took', 'on', 'an', 'advisory', 'gig', 'as', 'executive', 'chairman', 'of', 'the', 'board', '.']
+		Output Confidence: 0.9793834 ; Subject: Page ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['In', 'what', 'was', 'then', 'the', 'biggest', 'executive', 'shakeup', 'in', 'Googles', 'history', ',', 'Page', 'took', 'the', 'reins', 'back', 'as', 'CEO', 'and', 'Schmidt', 'took', 'on', 'an', 'advisory', 'gig', 'as', 'executive', 'chairman', 'of', 'the', 'board', '.']
+		Output Confidence: 0.9810820 ; Subject: Schmidt ; Object: Googles ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 100 / 128 sentences
+	Processed 105 / 128 sentences
+	Processed 110 / 128 sentences
+	Processed 115 / 128 sentences
+	Processed 120 / 128 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Its', 'headed', 'up', 'by', 'Bill', 'Maris', ',', 'the', 'founding', 'partner', 'of', 'Google', 'Ventures', ',', 'who', 'recruited', 'former', 'Genentech', 'CEO', 'Art', 'Levinson', 'to', 'be', 'its', 'chief', 'executive', '.']
+		Output Confidence: 0.9797580 ; Subject: Bill Maris ; Object: Genentech ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['the', 'founding', 'partner', 'of', 'Google', 'Ventures', ',', 'who', 'recruited', 'former', 'Genentech', 'CEO', 'Art', 'Levinson', 'to', 'be', 'its', 'chief', 'executive', '.']
+		Output Confidence: 0.8025461 ; Subject: Art Levinson ; Object: Google Ventures ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['who', 'recruited', 'former', 'Genentech', 'CEO', 'Art', 'Levinson', 'to', 'be', 'its', 'chief', 'executive', '.']
+		Output Confidence: 0.9120277 ; Subject: Art Levinson ; Object: Genentech ;
+		Adding to set of extracted relations
+		==========
+	Processed 125 / 128 sentences
+Extracted annotations for  11  out of total  128  sentences
+Relations extracted from this website: 11 (Overall: 21)
+
+
+URL ( 4 / 10): https://www.forbes.com/profile/larry-page/
+	Fetching text from url ...
+	Webpage length (num characters): 11079
+	Annotating the webpage using spacy...
+	Extracted 74 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 74 sentences
+	Processed 10 / 74 sentences
+	Processed 15 / 74 sentences
+	Processed 20 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'stepped', 'down', 'as', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.9967960 ; Subject: Larry Page ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'stepped', 'down', 'as', 'CEO', 'of', 'Alphabet', ',', 'the', 'parent', 'of', 'Google', ',']
+		Output Confidence: 0.9469056 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['He', 'cofounded', 'Google', 'in', '1998', 'with', 'fellow', 'Stanford', 'Ph.D.', 'student', 'Sergey', 'Brin', '.']
+		Output Confidence: 0.9094859 ; Subject: Sergey Brin ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['when', 'Eric', 'Schmidt', 'took', 'over', ',', 'and', 'then', 'from', '2011', 'until', '2015', ',', 'when', 'he', 'became', 'CEO', 'of', 'Google', "'s", 'new', 'parent', 'company', 'Alphabet', '.']
+		Output Confidence: 0.9932025 ; Subject: Eric Schmidt ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 25 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['He', 'is', 'a', 'founding', 'investor', 'in', 'space', 'exploration', 'company', 'Planetary', 'Resources', 'and', 'is', 'also', 'funding', '"', 'flying', 'car', '"', 'startups', 'Kitty', 'Hawk', 'and', 'Opener', '.']
+		Output Confidence: 0.9940705 ; Subject: Kitty Hawk ; Object: Planetary Resources ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['University', 'of', 'Michigan', 'Did', 'you', 'know', 'Page', 'has', 'avoided', 'public', 'appearances', 'since', 'Sundar', 'Pichai', 'became', 'Google', "'s", 'CEO', ',']
+		Output Confidence: 0.9288645 ; Subject: Sundar Pichai ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 30 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'Key', 'Connections', 'Sergey', 'Brin', 'Cofounder', 'Alphabet', 'Holds', 'stake', 'in', 'Alphabet', 'More', 'on', 'Forbes', 'Aug', '6', ',']
+		Output Confidence: 0.9964729 ; Subject: Larry Page Key ; Object: Alphabet Holds ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'Key', 'Connections', 'Sergey', 'Brin', 'Cofounder', 'Alphabet', 'Holds', 'stake', 'in', 'Alphabet', 'More', 'on', 'Forbes', 'Aug', '6', ',', '2021', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',']
+		Output Confidence: 0.9949905 ; Subject: Larry Page Key ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'Key', 'Connections', 'Sergey', 'Brin', 'Cofounder', 'Alphabet', 'Holds', 'stake', 'in', 'Alphabet', 'More', 'on', 'Forbes', 'Aug', '6', ',']
+		Output Confidence: 0.8704613 ; Subject: Sergey Brin ; Object: Alphabet Holds ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'Key', 'Connections', 'Sergey', 'Brin', 'Cofounder', 'Alphabet', 'Holds', 'stake', 'in', 'Alphabet', 'More', 'on', 'Forbes', 'Aug', '6', ',', '2021', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',']
+		Output Confidence: 0.9818655 ; Subject: Sergey Brin ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Larry', 'Page', 'Key', 'Connections', 'Sergey', 'Brin', 'Cofounder', 'Alphabet', 'Holds', 'stake', 'in', 'Alphabet', 'More', 'on', 'Forbes', 'Aug', '6', ',', '2021', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',']
+		Output Confidence: 0.9974208 ; Subject: Larry Page ; Object: Alphabet Holds ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2021', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',']
+		Output Confidence: 0.9910150 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2021', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',', 'Officials', 'Confirm', 'After', 'Controversy', 'Over', 'His', 'Lockdown', 'Visit', 'Billionaire', 'Page', ',']
+		Output Confidence: 0.8817877 ; Subject: Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'Siladitya', 'Ray', 'Forbes', 'Staff', 'Jun', '11', ',', '2021', 'Billionaire', 'Larry', 'Pages']
+		Output Confidence: 0.9975064 ; Subject: Larry Pages ; Object: Forbes ;
+		Adding to set of extracted relations
+		==========
+	Processed 35 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['In', 'as', 'COO', ':', 'ex', '-', 'Wired', 'editor', 'Chris', 'Anderson', ',']
+		Output Confidence: 0.9553121 ; Subject: Chris Anderson ; Object: COO ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Wired', 'editor', 'Chris', 'Anderson', ',', 'founder', 'of', '3D', 'Robotics', '.']
+		Output Confidence: 0.9924772 ; Subject: Chris Anderson ; Object: 3D Robotics ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Meanwhile', ',', 'Google', 'cofounders', 'Larry', 'Page', 'and', 'Sergey', 'Brin', 'both', 'surpassed', 'the', '$', '100', 'billion', 'mark', 'on', 'Wednesday', '.']
+		Output Confidence: 0.9961374 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 40 / 74 sentences
+	Processed 45 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Todays', 'Top', '12', 'Stories', 'Larry', 'Page', 'is', 'stepping', 'down', 'as', 'Alphabet', 'CEO', ',', 'turning', 'over', 'the', 'role', 'to', 'Sundar', 'Pichai', ',', 'who', 'has', 'been', 'Googles', 'chief', 'executive', 'since', '2015', '.']
+		Output Confidence: 0.9967998 ; Subject: Larry Page ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['turning', 'over', 'the', 'role', 'to', 'Sundar', 'Pichai', ',', 'who', 'has', 'been', 'Googles', 'chief', 'executive', 'since', '2015', '.']
+		Output Confidence: 0.9961593 ; Subject: Sundar Pichai ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Google', 'Cofounders', 'Larry', 'Page', 'And', 'Sergey', 'Brin', 'Relinquish', 'Their', 'Titles', 'And', 'Step', 'Down', 'Signifying', 'an', 'end', 'to', 'an', 'era', ',', 'Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9925530 ; Subject: Larry Page ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Google', 'Cofounders', 'Larry', 'Page', 'And', 'Sergey', 'Brin', 'Relinquish', 'Their', 'Titles', 'And', 'Step', 'Down', 'Signifying', 'an', 'end', 'to', 'an', 'era', ',', 'Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9726714 ; Subject: Sergey Brin ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Google', 'Cofounders', 'Larry', 'Page', 'And', 'Sergey', 'Brin', 'Relinquish', 'Their', 'Titles', 'And', 'Step', 'Down', 'Signifying', 'an', 'end', 'to', 'an', 'era', ',', 'Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9852836 ; Subject: Larry Page ; Object: Googles ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Google', 'Cofounders', 'Larry', 'Page', 'And', 'Sergey', 'Brin', 'Relinquish', 'Their', 'Titles', 'And', 'Step', 'Down', 'Signifying', 'an', 'end', 'to', 'an', 'era', ',', 'Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9849679 ; Subject: Sergey Brin ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9972125 ; Subject: Larry Page ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Alphabet', 'CEO', 'Larry', 'Page', 'and', 'President', 'Sergey', 'Brin', 'are', 'relinquishing', 'their', 'executive', 'roles', 'at', 'Googles', 'parent', 'company', '.']
+		Output Confidence: 0.9937805 ; Subject: Sergey Brin ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Google', 'CEO', 'Sundar', 'Pichai', 'will', 'become', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.5634331 ; Subject: Sundar Pichai ; Object: Alphabet ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Google', 'CEO', 'Sundar', 'Pichai', 'will', 'become', 'CEO', 'of', 'Alphabet', ',', 'while', 'keeping', 'his', 'current', 'role', 'at', 'Google', '.']
+		Output Confidence: 0.9930179 ; Subject: Sundar Pichai ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 50 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'Jillian', "D'Onfro", 'Former', 'Staff', 'Dec', '3', ',', '2019', 'Larry', 'Page', 'Steps', 'Down', 'As', 'CEO', 'Of', 'Alphabet', 'Google', 'founder', 'Larry', 'Page', 'is', 'stepping', 'down', 'as', 'the', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.8616635 ; Subject: Jillian D'Onfro ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Larry', 'Page', 'Steps', 'Down', 'As', 'CEO', 'Of', 'Alphabet', 'Google', 'founder', 'Larry', 'Page', 'is', 'stepping', 'down', 'as', 'the', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.9140252 ; Subject: Larry Page Steps Down As ; Object: Alphabet ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['2019', 'Larry', 'Page', 'Steps', 'Down', 'As', 'CEO', 'Of', 'Alphabet', 'Google', 'founder', 'Larry', 'Page', 'is', 'stepping', 'down', 'as', 'the', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.9943872 ; Subject: Larry Page ; Object: Alphabet ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 55 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Launches', 'With', 'Backing', 'From', 'Google', "'s", 'Larry', 'Page', 'A', 'new', 'venture', 'from', 'Page', ',', 'the', 'CEO', 'of', 'Alphabet', ',']
+		Output Confidence: 0.9961935 ; Subject: Larry Page ; Object: Alphabet ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 60 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'Alan', 'Ohnsman', 'Forbes', 'Staff', 'Apr', '27', ',', '2017', 'In', 'State', 'Of', 'The', 'Union', 'For', 'Alphabet', ',']
+		Output Confidence: 0.8524024 ; Subject: Alan Ohnsman ; Object: State Of The Union For Alphabet ;
+		Adding to set of extracted relations
+		==========
+	Processed 65 / 74 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Apple', 'reached', 'out', 'to', 'Lit', 'earlier', 'this', 'year', 'and', 'met', 'with', 'its', 'founder', 'and', 'CEO', 'Daniel', 'Kim', 'over', 'the', 'summer', 'to', 'discuss', 'a', 'potential', 'acquisition', '.']
+		Output Confidence: 0.9961945 ; Subject: Daniel Kim ; Object: Apple ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['By', 'Katherine', 'Love', 'Forbes', 'Staff', 'More', 'Articles', 'also', 'on', 'forbes', 'Google', 'Founder', 'Larry', 'Page', 'Is', 'A', 'New', 'Zealand', 'Resident', ',']
+		Output Confidence: 0.9336425 ; Subject: Larry Page ; Object: forbes Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 70 / 74 sentences
+Extracted annotations for  17  out of total  74  sentences
+Relations extracted from this website: 19 (Overall: 34)
+
+
+URL ( 5 / 10): https://www.aljazeera.com/news/2021/8/6/google-co-founder-larry-new-zealand-resident
+	Fetching text from url ...
+	Webpage length (num characters): 5726
+	Annotating the webpage using spacy...
+	Extracted 34 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Health', 'Minister', 'Andrew', 'Little', 'told', 'lawmakers', 'in', 'Parliament', '.']
+		Output Confidence: 0.9945883 ; Subject: Andrew Little ; Object: Health ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Health', 'Minister', 'Andrew', 'Little', 'told', 'lawmakers', 'in', 'Parliament', '.']
+		Output Confidence: 0.9885486 ; Subject: Andrew Little ; Object: Parliament ;
+		Adding to set of extracted relations
+		==========
+	Processed 10 / 34 sentences
+	Processed 15 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Forbes', 'noted', 'that', 'Page', 'stepped', 'down', 'as', 'chief', 'executive', 'of', 'Googles', 'parent', 'company', 'Alphabet', 'in', '2019', 'but', 'remained', 'a', 'board', 'member', 'and', 'controlling', 'shareholder', '.']
+		Output Confidence: 0.9644929 ; Subject: Page ; Object: Forbes ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Forbes', 'noted', 'that', 'Page', 'stepped', 'down', 'as', 'chief', 'executive', 'of', 'Googles', 'parent', 'company', 'Alphabet', 'in', '2019', 'but', 'remained', 'a', 'board', 'member', 'and', 'controlling', 'shareholder', '.']
+		Output Confidence: 0.9967076 ; Subject: Page ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+	Processed 20 / 34 sentences
+	Processed 25 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Published', 'On', '15', 'Jul', '2021', '15', 'Jul', '2021', 'Trump', 'sues', 'Facebook', ',', 'Twitter', 'and', 'Google', 'over', 'social', 'media', 'bans', 'Former', 'US', 'President', 'Donald', 'Trump', 'filed', 'three', 'separate', 'class', '-']
+		Output Confidence: 0.9972781 ; Subject: Donald Trump ; Object: Trump ;
+		Adding to set of extracted relations
+		==========
+	Processed 30 / 34 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Al', 'Jazeera', 'Forum', 'Al', 'Jazeera', 'Hotel', 'Partners', 'Follow', 'Al', 'Jazeera', 'English', ':']
+		Output Confidence: 0.5605198 ; Subject: Al Jazeera ; Object: Al Jazeera Hotel Partners ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Extracted annotations for  4  out of total  34  sentences
+Relations extracted from this website: 5 (Overall: 6)
+
+
+URL ( 6 / 10): https://www.linkedin.com/in/larry-page-555530154
+	Fetching text from url ...
+	Webpage length (num characters): 0
+	Annotating the webpage using spacy...
+	Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  0  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 7 / 10): https://www.wired.com/2013/01/ff-qa-larry-page/
+	Fetching text from url ...
+	Trimming webpage content from 23309 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 239 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 239 sentences
+	Processed 10 / 239 sentences
+	Processed 15 / 239 sentences
+	Processed 20 / 239 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Astro', 'Teller', ',', 'who', 'oversees', 'Google', 'X', ',']
+		Output Confidence: 0.9943872 ; Subject: Astro Teller ; Object: Google X ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['who', 'oversees', 'Google', 'X', ',', 'the', 'company', "'s", 'blue', '-', 'sky', 'skunkworks', 'division', ',', 'illustrates', 'Page', "'s", 'proclivities', 'with', 'a', 'parable', '.']
+		Output Confidence: 0.7548447 ; Subject: Page ; Object: Google X ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 239 sentences
+	Processed 30 / 239 sentences
+	Processed 35 / 239 sentences
+	Processed 40 / 239 sentences
+	Processed 45 / 239 sentences
+	Processed 50 / 239 sentences
+	Processed 55 / 239 sentences
+	Processed 60 / 239 sentences
+	Processed 65 / 239 sentences
+	Processed 70 / 239 sentences
+	Processed 75 / 239 sentences
+	Processed 80 / 239 sentences
+	Processed 85 / 239 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['After', 'serving', 'as', 'Google', "'s", 'president', 'of', 'products', 'for', 'a', 'decade', ',', 'replaces', 'Eric', 'Schmidt', 'as', 'CEO', '.']
+		Output Confidence: 0.9936962 ; Subject: Eric Schmidt ; Object: Google ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 90 / 239 sentences
+	Processed 95 / 239 sentences
+	Processed 100 / 239 sentences
+	Processed 105 / 239 sentences
+	Processed 110 / 239 sentences
+	Processed 115 / 239 sentences
+	Processed 120 / 239 sentences
+	Processed 125 / 239 sentences
+	Processed 130 / 239 sentences
+	Processed 135 / 239 sentences
+	Processed 140 / 239 sentences
+	Processed 145 / 239 sentences
+	Processed 150 / 239 sentences
+	Processed 155 / 239 sentences
+	Processed 160 / 239 sentences
+	Processed 165 / 239 sentences
+	Processed 170 / 239 sentences
+	Processed 175 / 239 sentences
+	Processed 180 / 239 sentences
+	Processed 185 / 239 sentences
+	Processed 190 / 239 sentences
+	Processed 195 / 239 sentences
+	Processed 200 / 239 sentences
+	Processed 205 / 239 sentences
+	Processed 210 / 239 sentences
+	Processed 215 / 239 sentences
+	Processed 220 / 239 sentences
+	Processed 225 / 239 sentences
+	Processed 230 / 239 sentences
+	Processed 235 / 239 sentences
+Extracted annotations for  2  out of total  239  sentences
+Relations extracted from this website: 2 (Overall: 3)
+
+
+URL ( 8 / 10): https://www.cnbc.com/2021/08/06/google-billionaire-larry-page-has-granted-new-zealand-residency.html
+	Fetching text from url ...
+	Webpage length (num characters): 5815
+	Annotating the webpage using spacy...
+	Extracted 35 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 35 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['It', 'comes', 'after', 'Peter', 'Thiel', ',', 'who', 'co', '-', 'founded', 'PayPal', 'and', 'profited', 'from', 'an', 'early', 'bet', 'on', 'Facebook', ',']
+		Output Confidence: 0.9607546 ; Subject: Peter Thiel ; Object: PayPal ;
+		Adding to set of extracted relations
+		==========
+	Processed 10 / 35 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['"', 'Once', 'Mr.', 'Page', 'entered', 'New', 'Zealand', ',', 'his', 'application', 'was', 'able', 'to', 'be', 'processed', 'and', 'it', 'was', 'approved', 'on', '4', 'February', '2021', ',', '"', 'Immigration', 'New', 'Zealand', 'said', 'in', 'a', 'statement', '.']
+		Output Confidence: 0.5210316 ; Subject: Page ; Object: Immigration New Zealand ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+	Processed 15 / 35 sentences
+	Processed 20 / 35 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Billionaire', 'Peter', 'Thiel', ',', 'who', 'co', '-', 'founded', 'PayPal', 'and', 'profited', 'from', 'an', 'early', 'bet', 'on', 'Facebook', ',']
+		Output Confidence: 0.9756805 ; Subject: Peter Thiel ; Object: PayPal ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 35 sentences
+	Processed 30 / 35 sentences
+Extracted annotations for  3  out of total  35  sentences
+Relations extracted from this website: 2 (Overall: 3)
+
+
+URL ( 9 / 10): https://www.bbc.com/news/world-asia-58128475
+	Fetching text from url ...
+	Webpage length (num characters): 5454
+	Annotating the webpage using spacy...
+	Extracted 42 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['founder', 'granted', 'New', 'Zealand', 'residency', 'Published', '7', 'August', '2021', 'Share', 'close', 'Share', 'page', 'Copy', 'link', 'About', 'sharing', 'Image', 'source', ',', 'Getty', 'Images', 'Image', 'caption', ',']
+		Output Confidence: 0.8708441 ; Subject: Getty Images Image ; Object: Share ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 42 sentences
+	Processed 10 / 42 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Health', 'Minister', 'Andrew', 'Little', 'defended', 'the', 'decision', 'to', 'grant', 'him', 'entry', '.']
+		Output Confidence: 0.9836068 ; Subject: Andrew Little ; Object: Health ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 15 / 42 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Peter', 'Thiel', ',', 'a', 'co', '-', 'founder', 'of', 'Paypal', 'and', 'early', 'investor', 'in', 'Facebook', ',']
+		Output Confidence: 0.9965394 ; Subject: Peter Thiel ; Object: Paypal ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Peter', 'Thiel', ',', 'a', 'co', '-', 'founder', 'of', 'Paypal', 'and', 'early', 'investor', 'in', 'Facebook', ',']
+		Output Confidence: 0.9805647 ; Subject: Peter Thiel ; Object: Facebook ;
+		Adding to set of extracted relations
+		==========
+	Processed 20 / 42 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Google', 'boss', 'Sundar', 'Pichai', 'on', 'tax', 'and', 'his', 'personal', 'tech', 'habits', 'More', 'on', 'this', 'story', 'Tech', 'giants', "'", 'profits', 'soar', 'as', 'pandemic', 'boom', 'continues', '27', 'July', '2021', 'Google', 'founders', 'step', 'down', 'from', 'top', 'roles', '4', 'December', '2019']
+		Output Confidence: 0.9968816 ; Subject: Sundar Pichai ; Object: Google ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 42 sentences
+	Processed 30 / 42 sentences
+	Processed 35 / 42 sentences
+	Processed 40 / 42 sentences
+Extracted annotations for  4  out of total  42  sentences
+Relations extracted from this website: 4 (Overall: 5)
+
+
+URL ( 10 / 10): https://www.ft.com/content/3173f19e-5fbc-11e4-8c27-00144feabdc0
+	Fetching text from url ...
+	Trimming webpage content from 22058 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 149 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 149 sentences
+	Processed 10 / 149 sentences
+	Processed 15 / 149 sentences
+	Processed 20 / 149 sentences
+	Processed 25 / 149 sentences
+	Processed 30 / 149 sentences
+	Processed 35 / 149 sentences
+	Processed 40 / 149 sentences
+	Processed 45 / 149 sentences
+	Processed 50 / 149 sentences
+	Processed 55 / 149 sentences
+	Processed 60 / 149 sentences
+	Processed 65 / 149 sentences
+	Processed 70 / 149 sentences
+	Processed 75 / 149 sentences
+	Processed 80 / 149 sentences
+	Processed 85 / 149 sentences
+	Processed 90 / 149 sentences
+	Processed 95 / 149 sentences
+	Processed 100 / 149 sentences
+	Processed 105 / 149 sentences
+	Processed 110 / 149 sentences
+	Processed 115 / 149 sentences
+	Processed 120 / 149 sentences
+	Processed 125 / 149 sentences
+	Processed 130 / 149 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Despite', 'Brin', 'stepping', 'back', 'from', 'Googles', 'main', 'business', ',']
+		Output Confidence: 0.8872733 ; Subject: Brin ; Object: Googles ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Despite', 'Brin', 'stepping', 'back', 'from', 'Googles', 'main', 'business', ',', 'Page', 'still', 'describes', 'them', 'as', 'close', 'allies', '.']
+		Output Confidence: 0.9744169 ; Subject: Page ; Object: Googles ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 135 / 149 sentences
+	Processed 140 / 149 sentences
+	Processed 145 / 149 sentences
+Extracted annotations for  1  out of total  149  sentences
+Relations extracted from this website: 1 (Overall: 2)
+================== ALL RELATIONS for per:employee_of ( 87 ) =================
+Confidence: 0.9975064 		| Subject: Larry Pages 		| Object: Forbes
+Confidence: 0.9974208 		| Subject: Larry Page 		| Object: Alphabet Holds
+Confidence: 0.9972781 		| Subject: Donald Trump 		| Object: Trump
+Confidence: 0.9972420 		| Subject: Larry Page 		| Object: Google
+Confidence: 0.9972125 		| Subject: Larry Page 		| Object: Googles
+Confidence: 0.9968816 		| Subject: Sundar Pichai 		| Object: Google
+Confidence: 0.9967960 		| Subject: Larry Page 		| Object: Alphabet
+Confidence: 0.9967076 		| Subject: Page 		| Object: Googles
+Confidence: 0.9965470 		| Subject: Schmidt 		| Object: Google
+Confidence: 0.9965394 		| Subject: Peter Thiel 		| Object: Paypal
+Confidence: 0.9964729 		| Subject: Larry Page Key 		| Object: Alphabet Holds
+Confidence: 0.9962420 		| Subject: Andy Bechtolsheim 		| Object: Sun Microsystems
+Confidence: 0.9961945 		| Subject: Daniel Kim 		| Object: Apple
+Confidence: 0.9961593 		| Subject: Sundar Pichai 		| Object: Googles
+Confidence: 0.9960415 		| Subject: Sundar Pichai 		| Object: Android
+Confidence: 0.9959409 		| Subject: Precededby Larry Page CEO 		| Object: Google
+Confidence: 0.9958316 		| Subject: Schmidt 		| Object: Googles
+Confidence: 0.9955012 		| Subject: Vinod Khosla 		| Object: Khosla Ventures
+Confidence: 0.9953920 		| Subject: Eric Schmidt 		| Object: Google
+Confidence: 0.9949905 		| Subject: Larry Page Key 		| Object: Google
+Confidence: 0.9949184 		| Subject: Page 		| Object: Michigan State University
+Confidence: 0.9945883 		| Subject: Andrew Little 		| Object: Health
+Confidence: 0.9945314 		| Subject: Sundar Pichai 		| Object: Alphabet
+Confidence: 0.9944071 		| Subject: John Battelle 		| Object: Wired
+Confidence: 0.9943872 		| Subject: Astro Teller 		| Object: Google X
+Confidence: 0.9940705 		| Subject: Kitty Hawk 		| Object: Planetary Resources
+Confidence: 0.9937805 		| Subject: Sergey Brin 		| Object: Googles
+Confidence: 0.9931855 		| Subject: Page 		| Object: Novell
+Confidence: 0.9928682 		| Subject: Joanna Daley 		| Object: IBM
+Confidence: 0.9925899 		| Subject: Sundar Pichai's 		| Object: Google
+Confidence: 0.9924772 		| Subject: Chris Anderson 		| Object: 3D Robotics
+Confidence: 0.9912608 		| Subject: Susan Wojcicki 		| Object: Google
+Confidence: 0.9912438 		| Subject: Pichai 		| Object: Applied Materials
+Confidence: 0.9907882 		| Subject: Eric Schmidt 		| Object: Novell
+Confidence: 0.9896767 		| Subject: Page 		| Object: Alphabet Inc.
+Confidence: 0.9891832 		| Subject: Sundar Pichai 		| Object: Share
+Confidence: 0.9885486 		| Subject: Andrew Little 		| Object: Parliament
+Confidence: 0.9883949 		| Subject: Kent Walker 		| Object: SVP See all Press
+Confidence: 0.9881112 		| Subject: Larry Page 		| Object: Corbis
+Confidence: 0.9879190 		| Subject: Daniel Schwartz 		| Object: Restaurant Brands International
+Confidence: 0.9877984 		| Subject: Terry Semel 		| Object: Yahoo
+Confidence: 0.9877127 		| Subject: Susan Wojcicki 		| Object: YouTube
+Confidence: 0.9865999 		| Subject: Wojcicki 		| Object: Googles
+Confidence: 0.9857657 		| Subject: Larry Page 		| Object: Encyclopaedia Britannica
+Confidence: 0.9854480 		| Subject: Sergey Brin 		| Object: Alphabet
+Confidence: 0.9850768 		| Subject: Page 		| Object: Google Inc.
+Confidence: 0.9843462 		| Subject: Page 		| Object: Google
+Confidence: 0.9833404 		| Subject: Sergey Brin 		| Object: Google
+Confidence: 0.9826711 		| Subject: Jon Wiley 		| Object: Google Search
+Confidence: 0.9820303 		| Subject: Matias Duarte 		| Object: Android
+Confidence: 0.9805647 		| Subject: Peter Thiel 		| Object: Facebook
+Confidence: 0.9798552 		| Subject: Joanna Daley 		| Object: CNBC
+Confidence: 0.9797580 		| Subject: Bill Maris 		| Object: Genentech
+Confidence: 0.9790790 		| Subject: Larry Page Sundar Pichai Ram Shriram 		| Object: CLO
+Confidence: 0.9789660 		| Subject: Sundar Pichai's 		| Object: The Daily Telegraph Business
+Confidence: 0.9781504 		| Subject: Gloria 		| Object: Michigan State University
+Confidence: 0.9756805 		| Subject: Peter Thiel 		| Object: PayPal
+Confidence: 0.9755884 		| Subject: Eric Schmidt 		| Object: Alphabet Inc.
+Confidence: 0.9644929 		| Subject: Page 		| Object: Forbes
+Confidence: 0.9619832 		| Subject: Bloomberg 		| Object: Page
+Confidence: 0.9568320 		| Subject: Ruth Porat 		| Object: SVP
+Confidence: 0.9566048 		| Subject: John L. Hennessy Ann Mather 		| Object: CLO
+Confidence: 0.9553121 		| Subject: Chris Anderson 		| Object: COO
+Confidence: 0.9523993 		| Subject: Alan Mulally 		| Object: CLO
+Confidence: 0.9468343 		| Subject: Pichai 		| Object: McKinsey & Company
+Confidence: 0.9373208 		| Subject: Brin 		| Object: Google
+Confidence: 0.9336425 		| Subject: Larry Page 		| Object: forbes Google
+Confidence: 0.9309485 		| Subject: Gloria 		| Object: Lyman Briggs College
+Confidence: 0.9140252 		| Subject: Larry Page Steps Down As 		| Object: Alphabet
+Confidence: 0.9120277 		| Subject: Art Levinson 		| Object: Genentech
+Confidence: 0.8969603 		| Subject: Satya Nadella 		| Object: Microsoft
+Confidence: 0.8872733 		| Subject: Brin 		| Object: Googles
+Confidence: 0.8708441 		| Subject: Getty Images Image 		| Object: Share
+Confidence: 0.8704613 		| Subject: Sergey Brin 		| Object: Alphabet Holds
+Confidence: 0.8656054 		| Subject: Sundar Pichai 		| Object: Alphabets Board of Directors
+Confidence: 0.8616635 		| Subject: Jillian D'Onfro 		| Object: Alphabet
+Confidence: 0.8524024 		| Subject: Alan Ohnsman 		| Object: State Of The Union For Alphabet
+Confidence: 0.8447867 		| Subject: Siebel Scholars 		| Object: the Wayback Machine
+Confidence: 0.8441581 		| Subject: Sergey Brin 		| Object: CLO
+Confidence: 0.8382497 		| Subject: Sundar Pichai 		| Object: AFP Image
+Confidence: 0.8361849 		| Subject: Andy Rubin 		| Object: Android
+Confidence: 0.8174487 		| Subject: Larry Page 		| Object: Getty Images Filed
+Confidence: 0.8025461 		| Subject: Art Levinson 		| Object: Google Ventures
+Confidence: 0.7730327 		| Subject: Project Kennedy 		| Object: Google Search
+Confidence: 0.7548447 		| Subject: Page 		| Object: Google X
+Confidence: 0.7548357 		| Subject: Getty Images Image 		| Object: the Indian Institute of Technology
+Confidence: 0.7485877 		| Subject: Larry Page 		| Object: CLO
+Total # of iterations = 2

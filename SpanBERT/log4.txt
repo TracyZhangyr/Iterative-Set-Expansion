@@ -1,0 +1,308 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+
+
+____
+Parameters:
+Client key	=  AIzaSyD0FBYWKa1fBB2nYsg6RvP9DfvOLCpd_TI
+Engine key	=  de217206a85e0b817
+Relation	=  org:top_members/employees
+Threshold	=  0.7
+Query		=  bill gates microsoft
+# of Tuples	=  10
+Loading necessary libraries; This should take a minute or so ...)
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+	Fetching text from url ...
+	Trimming webpage content from 125124 to 20000 characters
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 154 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Technology', 'advisor', 'of', 'Microsoft', '[', '1', ']', 'Board', 'memberof', 'Berkshire', 'Hathaway', 'Microsoft', '(']
+		Output Confidence: 0.7592563 ; Subject: TerraPower Founder of Breakthrough Energy Technology ; Object: Berkshire Hathaway Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 154 sentences
+	Processed 10 / 154 sentences
+	Processed 15 / 154 sentences
+	Processed 20 / 154 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'Microsoft', 'in', 'February', '2014', 'and', 'assumed', 'a', 'new', 'post', 'as', 'technology', 'adviser', 'to', 'support', 'the', 'newly', 'appointed', 'CEO', 'Satya', 'Nadella', '.']
+		Output Confidence: 0.9912447 ; Subject: Microsoft ; Object: Satya Nadella ;
+		Adding to set of extracted relations
+		==========
+	Processed 25 / 154 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['he', 'was', 'surpassed', 'by', 'Amazon', 'founder', 'and', 'CEO', 'Jeff', 'Bezos', ',', 'who', 'had', 'an', 'estimated', 'net', 'worth', 'of', 'US$', '90.6billion', 'compared', 'to', 'Gates', "'s", 'net', 'worth', 'of', 'US$', '89.9billion', 'at', 'the', 'time', '.']
+		Output Confidence: 0.9618722 ; Subject: Gates ; Object: Jeff Bezos ;
+		Adding to set of extracted relations
+		==========
+	Processed 30 / 154 sentences
+	Processed 35 / 154 sentences
+	Processed 40 / 154 sentences
+	Processed 45 / 154 sentences
+	Processed 50 / 154 sentences
+	Processed 55 / 154 sentences
+	Processed 60 / 154 sentences
+	Processed 65 / 154 sentences
+	Processed 70 / 154 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Ballmer', 'succeeded', 'Gates', 'as', 'Microsoft', "'s", 'CEO', 'and', 'maintained', 'that', 'position', 'from', '2000', 'until', 'his', 'resignation', 'in', '2014', '.']
+		Output Confidence: 0.9897286 ; Subject: Microsoft ; Object: Ballmer ;
+		Adding to set of extracted relations
+		==========
+	Processed 75 / 154 sentences
+	Processed 80 / 154 sentences
+	Processed 85 / 154 sentences
+	Processed 90 / 154 sentences
+	Processed 95 / 154 sentences
+	Processed 100 / 154 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Mary', 'Maxwell', 'Gates', ',', 'mentioned', 'Microsoft', 'to', 'John', 'Opel', ',', 'IBM', "'s", 'CEO', '.']
+		Output Confidence: 0.7139947 ; Subject: IBM ; Object: Mary Maxwell Gates ;
+		Adding to set of extracted relations
+		==========
+	Processed 105 / 154 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['IBM', 'representative', 'Jack', 'Sams', 'mentioned', 'the', 'licensing', 'difficulties', 'during', 'a', 'subsequent', 'meeting', 'with', 'Gates', 'and', 'asked', 'if', 'Microsoft', 'could', 'provide', 'an', 'operating', 'system', '.']
+		Output Confidence: 0.8919420 ; Subject: IBM ; Object: Jack Sams ;
+		Adding to set of extracted relations
+		==========
+	Processed 110 / 154 sentences
+	Processed 115 / 154 sentences
+	Processed 120 / 154 sentences
+	Processed 125 / 154 sentences
+	Processed 130 / 154 sentences
+	Processed 135 / 154 sentences
+	Processed 140 / 154 sentences
+	Processed 145 / 154 sentences
+	Processed 150 / 154 sentences
+Extracted annotations for  6  out of total  154  sentences
+Relations extracted from this website: 6 (Overall: 6)
+
+
+URL ( 2 / 10): https://www.britannica.com/biography/Bill-Gates
+	Fetching text from url ...
+	Webpage length (num characters): 10593
+	Annotating the webpage using spacy...
+	Extracted 93 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 93 sentences
+	Processed 10 / 93 sentences
+	Processed 15 / 93 sentences
+	Processed 20 / 93 sentences
+	Processed 25 / 93 sentences
+	Processed 30 / 93 sentences
+	Processed 35 / 93 sentences
+	Processed 40 / 93 sentences
+	Processed 45 / 93 sentences
+	Processed 50 / 93 sentences
+	Processed 55 / 93 sentences
+	Processed 60 / 93 sentences
+	Processed 65 / 93 sentences
+	Processed 70 / 93 sentences
+	Processed 75 / 93 sentences
+	Processed 80 / 93 sentences
+	Processed 85 / 93 sentences
+	Processed 90 / 93 sentences
+Extracted annotations for  0  out of total  93  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 3 / 10): https://www.cnbc.com/2020/03/13/bill-gates-leaves-microsoft-board.html
+	Fetching text from url ...
+	Webpage length (num characters): 4914
+	Annotating the webpage using spacy...
+	Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['Mar', '13', '2020', '7:14', 'PM', 'EDT', 'Todd', 'Haselton', '@robotodd', 'Jordan', 'Novet', '@jordannovet', 'WATCH', 'LIVE', 'Key', 'Points', 'Bill', 'Gates', 'is', 'leaving', 'Microsoft', "'s", 'board', ',']
+		Output Confidence: 0.9748583 ; Subject: Microsoft ; Object: Todd Haselton ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Mar', '13', '2020', '7:14', 'PM', 'EDT', 'Todd', 'Haselton', '@robotodd', 'Jordan', 'Novet', '@jordannovet', 'WATCH', 'LIVE', 'Key', 'Points', 'Bill', 'Gates', 'is', 'leaving', 'Microsoft', "'s", 'board', ',']
+		Output Confidence: 0.8176947 ; Subject: Microsoft ; Object: Jordan Novet ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 38 sentences
+	Processed 10 / 38 sentences
+	Processed 15 / 38 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Microsoft', "'s", 'current', 'CEO', ',', 'Satya', 'Nadella', ',']
+		Output Confidence: 0.9902319 ; Subject: Microsoft ; Object: Satya Nadella ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 20 / 38 sentences
+	Processed 25 / 38 sentences
+	Processed 30 / 38 sentences
+	Processed 35 / 38 sentences
+Extracted annotations for  2  out of total  38  sentences
+Relations extracted from this website: 2 (Overall: 3)
+
+
+URL ( 4 / 10): https://www.wsj.com/articles/microsoft-executives-told-bill-gates-to-stop-emailing-a-female-staffer-years-ago-11634559950
+	Fetching text from url ...
+	Webpage length (num characters): 8429
+	Annotating the webpage using spacy...
+	Extracted 43 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 43 sentences
+	Processed 10 / 43 sentences
+	Processed 15 / 43 sentences
+	Processed 20 / 43 sentences
+	Processed 25 / 43 sentences
+	Processed 30 / 43 sentences
+	Processed 35 / 43 sentences
+	Processed 40 / 43 sentences
+Extracted annotations for  0  out of total  43  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 5 / 10): https://twitter.com/billgates
+	Fetching text from url ...
+	Webpage length (num characters): 63
+	Annotating the webpage using spacy...
+	Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 6 / 10): https://www.gatesnotes.com/
+	Fetching text from url ...
+	Webpage length (num characters): 135
+	Annotating the webpage using spacy...
+	Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  2  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 7 / 10): https://news.microsoft.com/2006/06/15/microsoft-announces-plans-for-july-2008-transition-for-bill-gates/
+	Fetching text from url ...
+	Webpage length (num characters): 19
+	Annotating the webpage using spacy...
+	Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+
+
+URL ( 8 / 10): https://www.nytimes.com/2021/10/18/business/bill-gates-microsoft.html
+	Fetching text from url ...
+	Webpage length (num characters): 3387
+	Annotating the webpage using spacy...
+	Extracted 27 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Input tokens: ['Mr.', 'Gates', ',', 'who', 'at', 'the', 'time', 'was', 'Microsofts', 'chairman', ',']
+		Output Confidence: 0.9902762 ; Subject: Microsofts ; Object: Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Mr.', 'Gates', ',', 'who', 'at', 'the', 'time', 'was', 'Microsofts', 'chairman', ',', 'had', 'asked', 'a', 'female', 'employee', 'out', 'on', 'a', 'date', ',', 'a', 'Microsoft', 'spokesman', 'said', '.']
+		Output Confidence: 0.7232741 ; Subject: Microsoft ; Object: Gates ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 27 sentences
+	Processed 10 / 27 sentences
+	Processed 15 / 27 sentences
+	Processed 20 / 27 sentences
+	Processed 25 / 27 sentences
+Extracted annotations for  1  out of total  27  sentences
+Relations extracted from this website: 2 (Overall: 2)
+
+
+URL ( 9 / 10): https://nypost.com/2022/01/14/microsoft-orders-probe-of-bill-gates-harassment-allegations/
+	Fetching text from url ...
+	Webpage length (num characters): 6943
+	Annotating the webpage using spacy...
+	Extracted 49 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 49 sentences
+	Processed 10 / 49 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Microsoft', 'Chairman', 'and', 'CEO', 'Satya', 'Nadella', 'said', 'in', 'a', 'statement', '.']
+		Output Confidence: 0.9896711 ; Subject: Microsoft ; Object: Satya Nadella ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 15 / 49 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Gates', 'stepped', 'down', 'from', 'Microsofts', 'board', 'in', 'March', '2020', ',']
+		Output Confidence: 0.9917563 ; Subject: Microsofts ; Object: Gates ;
+		Adding to set of extracted relations
+		==========
+	Processed 20 / 49 sentences
+	Processed 25 / 49 sentences
+	Processed 30 / 49 sentences
+	Processed 35 / 49 sentences
+	Processed 40 / 49 sentences
+	Processed 45 / 49 sentences
+Extracted annotations for  2  out of total  49  sentences
+Relations extracted from this website: 1 (Overall: 2)
+
+
+URL ( 10 / 10): https://www.nytimes.com/2020/03/13/technology/bill-gates-microsoft-board.html
+	Fetching text from url ...
+	Webpage length (num characters): 5660
+	Annotating the webpage using spacy...
+	Extracted 47 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 47 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Calla', 'Kessler', '/', 'The', 'New', 'York', 'Times', 'By', 'Daisuke', 'Wakabayashi', 'and', 'Steve', 'Lohr', 'Published', 'March', '13', ',', '2020', 'Updated', 'May', '3', ',', '2021', 'SAN', 'FRANCISCO', ' ', 'Bill', 'Gates', 'is', 'stepping', 'down', 'from', 'the', 'board', 'of', 'Microsoft', ',']
+		Output Confidence: 0.9617970 ; Subject: Microsoft ; Object: Calla Kessler ;
+		Adding to set of extracted relations
+		==========
+	Processed 10 / 47 sentences
+	Processed 15 / 47 sentences
+	Processed 20 / 47 sentences
+	Processed 25 / 47 sentences
+
+		=== Extracted Relation ===
+		Input tokens: ['Mr.', 'Gates', 'joined', 'the', 'Berkshire', 'Hathaway', 'board', 'in', '2004', '.']
+		Output Confidence: 0.9807724 ; Subject: Berkshire Hathaway ; Object: Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['the', 'former', 'chief', 'executive', 'of', 'American', 'Express', ',', 'to', 'replace', 'Mr.', 'Gates', 'on', 'the', 'board', '.']
+		Output Confidence: 0.9890002 ; Subject: American Express ; Object: Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Input tokens: ['Daniel', 'Ives', ',', 'managing', 'director', 'of', 'equity', 'research', 'at', 'Wedbush', 'Securities', ',']
+		Output Confidence: 0.9648241 ; Subject: Wedbush Securities ; Object: Daniel Ives ;
+		Adding to set of extracted relations
+		==========
+	Processed 30 / 47 sentences
+	Processed 35 / 47 sentences
+	Processed 40 / 47 sentences
+	Processed 45 / 47 sentences
+Extracted annotations for  4  out of total  47  sentences
+Relations extracted from this website: 4 (Overall: 4)
+================== ALL RELATIONS for org:top_members/employees ( 14 ) =================
+Confidence: 0.9917563 		| Subject: Microsofts 		| Object: Gates
+Confidence: 0.9912447 		| Subject: Microsoft 		| Object: Satya Nadella
+Confidence: 0.9897286 		| Subject: Microsoft 		| Object: Ballmer
+Confidence: 0.9890002 		| Subject: American Express 		| Object: Gates
+Confidence: 0.9807724 		| Subject: Berkshire Hathaway 		| Object: Gates
+Confidence: 0.9748583 		| Subject: Microsoft 		| Object: Todd Haselton
+Confidence: 0.9648241 		| Subject: Wedbush Securities 		| Object: Daniel Ives
+Confidence: 0.9618722 		| Subject: Gates 		| Object: Jeff Bezos
+Confidence: 0.9617970 		| Subject: Microsoft 		| Object: Calla Kessler
+Confidence: 0.8919420 		| Subject: IBM 		| Object: Jack Sams
+Confidence: 0.8176947 		| Subject: Microsoft 		| Object: Jordan Novet
+Confidence: 0.7592563 		| Subject: TerraPower Founder of Breakthrough Energy Technology 		| Object: Berkshire Hathaway Microsoft
+Confidence: 0.7232741 		| Subject: Microsoft 		| Object: Gates
+Confidence: 0.7139947 		| Subject: IBM 		| Object: Mary Maxwell Gates
+Total # of iterations = 1
